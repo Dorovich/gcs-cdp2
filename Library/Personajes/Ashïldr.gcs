@@ -1003,20 +1003,20 @@
 			}
 		},
 		{
-			"id": "thWKgtLHtiSFNW1-y",
+			"id": "tZe31Oofqq-ir6PnD",
 			"source": {
 				"library": "/gcs-cdp2",
-				"path": "CdP2 Rasgos.adq",
+				"path": "CdP2 Rasgos Nuevos.adq",
 				"id": "ti38WK9zFITg7XbtV"
 			},
-			"name": "Te'karn",
+			"name": "Species: Te'karn",
 			"local_notes": "El ser humano es de las especies más antiguas del Pentácoro, y su origen se ha perdido en los anales de la historia. Su territorio principal es el fértil Valle Eterno que defienden con reliquias militares del pasado. Suelen ser tenaces y ávidos aprendices, algo estúpidos a veces, aunque su sociedad es la mejor establecida de todas, con reglas y legado que abarcan siglos. Muchos de ellos creen que el resto del mundo antaño fue suyo y les pertenece, y aunque no se ha logrado demostrar, la mayoría tiene prejuicios por el resto de especies que lo habitan. Sin embargo, su orgullo mercurial no les ciñe el camino a la prosperidad, pues ciudades te’karn de los valles como Niwel, Boxton o Camdel son los mayores centros culturales, científicos e industriales de los territorios, al menos en su superfície.",
 			"tags": [
 				"Species"
 			],
 			"weapons": [
 				{
-					"id": "wixocW68Z-KcSnqs-",
+					"id": "wBcDL-mROtojo7fyt",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1040,7 +1040,7 @@
 					}
 				},
 				{
-					"id": "wRSpNtIr9L94XCv2z",
+					"id": "wvC8JE1QUH-EvZYub",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1074,7 +1074,7 @@
 					}
 				},
 				{
-					"id": "wu8iupy3Lf4qVG9WC",
+					"id": "wsADBfJODt5FsRDwm",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1646,7 +1646,7 @@
 		}
 	],
 	"created_date": "2025-12-28T17:51:15+01:00",
-	"modified_date": "2025-12-28T18:01:57+01:00",
+	"modified_date": "2025-12-29T14:02:22+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

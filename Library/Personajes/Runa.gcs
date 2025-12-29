@@ -1273,205 +1273,6 @@
 			}
 		},
 		{
-			"id": "tWxqXmVb0-1PQMZDN",
-			"source": {
-				"library": "/gcs-cdp2",
-				"path": "CdP2 Rasgos.adq",
-				"id": "tf5GmnEoBJPZ2myYy"
-			},
-			"name": "Korkon",
-			"local_notes": "Temperamentales, fáciles tanto de alegrar como de enfadar. Chocan sus cabezas con fuerza en enfrentamientos o suavemente para mostrar afecto. Algunos aman la vida nómada tradicional en las dunas, viviendo con el complejo de grupo, mientras que otros viajan por las tierras de Epna descubriendo el mundo. Cuentan con una mayor capacidad física y rara vez se dejan intimidar por sus rivales, prefieren que les dejen en paz antes que tener que recurrir a un cabezazo. Su dieta se basa en vegetales y especias. Las fervientes convicciones que tienen les impulsan a logros dignos de leyenda, o a fracasos dignos de las burlas de un bardo. Su sociedad está segregada en una gran multitud de tribus nómadas que vagan por las dunas próximas, ya que las profundas se consideran territorio sagrado o prohibido por muchas de ellas, y con buen motivo.\n\n_Se caracterizan por su cornamenta, pelaje y duro cráneo, tozudez innata, tolerancia a temperaturas más extremas, y su capacidad de digerir sustancias orgánicas inusuales._\n\n_Rasgos de subespecie suelen incluir una mata de lana que los recubre o pezuñas especializadas para trepar por paredes muy empinadas._",
-			"tags": [
-				"Species"
-			],
-			"base_points": 10,
-			"weapons": [
-				{
-					"id": "wkJIBvNQhQzh6iCxc",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"modifier_per_die": 1
-					},
-					"usage": "Headbutt",
-					"reach": "C",
-					"parry": "-2",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d cr",
-						"parry": "7"
-					}
-				},
-				{
-					"id": "wp2KCpYgcJUO_9rsg",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"modifier_per_die": 1
-					},
-					"usage": "Trample",
-					"usage_notes": "Only on SM-2 or (prone) SM-1",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 8,
-						"damage": "1d cr"
-					}
-				},
-				{
-					"id": "wk_jECBCOLy52CTIx",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-2 cr"
-					}
-				},
-				{
-					"id": "wKuxgqXW6SPoakJpL",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 8,
-						"damage": "1d-1 cr"
-					}
-				},
-				{
-					"id": "wlIdLPC_-_UbqksvU",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-2 cr",
-						"parry": "9"
-					}
-				}
-			],
-			"features": [
-				{
-					"type": "dr_bonus",
-					"locations": [
-						"feet",
-						"skull"
-					],
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "iq",
-					"amount": -1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "ht",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "st",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "will",
-					"amount": 2
-				}
-			],
-			"calc": {
-				"points": 10
-			}
-		},
-		{
 			"id": "tgZJVtymio3pooT_M",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1949,6 +1750,205 @@
 			"base_points": -1,
 			"calc": {
 				"points": -1
+			}
+		},
+		{
+			"id": "tBRxzyLMutjaXlMbr",
+			"source": {
+				"library": "/gcs-cdp2",
+				"path": "CdP2 Rasgos Nuevos.adq",
+				"id": "tf5GmnEoBJPZ2myYy"
+			},
+			"name": "Species: Korkon",
+			"local_notes": "Temperamentales, fáciles tanto de alegrar como de enfadar. Chocan sus cabezas con fuerza en enfrentamientos o suavemente para mostrar afecto. Algunos aman la vida nómada tradicional en las dunas, viviendo con el complejo de grupo, mientras que otros viajan por las tierras de Epna descubriendo el mundo. Cuentan con una mayor capacidad física y rara vez se dejan intimidar por sus rivales, prefieren que les dejen en paz antes que tener que recurrir a un cabezazo. Su dieta se basa en vegetales y especias. Las fervientes convicciones que tienen les impulsan a logros dignos de leyenda, o a fracasos dignos de las burlas de un bardo. Su sociedad está segregada en una gran multitud de tribus nómadas que vagan por las dunas próximas, ya que las profundas se consideran territorio sagrado o prohibido por muchas de ellas, y con buen motivo.\n\n_Se caracterizan por su cornamenta, pelaje y duro cráneo, tozudez innata, tolerancia a temperaturas más extremas, y su capacidad de digerir sustancias orgánicas inusuales._\n\n_Rasgos de subespecie suelen incluir una mata de lana que los recubre o pezuñas especializadas para trepar por paredes muy empinadas._",
+			"tags": [
+				"Species"
+			],
+			"base_points": 10,
+			"weapons": [
+				{
+					"id": "wEh-MzgmVhp8liupG",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"usage": "Headbutt",
+					"reach": "C",
+					"parry": "-2",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d cr",
+						"parry": "7"
+					}
+				},
+				{
+					"id": "wigl8QFMZN8WGJfsu",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"usage": "Trample",
+					"usage_notes": "Only on SM-2 or (prone) SM-1",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 8,
+						"damage": "1d cr"
+					}
+				},
+				{
+					"id": "wxnqTJ1ug8ihGtFpF",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-2 cr"
+					}
+				},
+				{
+					"id": "wKDC5o7a8EcmkeFWN",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 8,
+						"damage": "1d-1 cr"
+					}
+				},
+				{
+					"id": "wpp0iCIKZb0bUXXuI",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-2 cr",
+						"parry": "9"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"feet",
+						"skull"
+					],
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "iq",
+					"amount": -1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "ht",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "st",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "will",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"points": 10
 			}
 		},
 		{
@@ -2772,7 +2772,7 @@
 		}
 	],
 	"created_date": "2025-12-29T03:00:37+01:00",
-	"modified_date": "2025-12-29T03:13:26+01:00",
+	"modified_date": "2025-12-29T14:02:54+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

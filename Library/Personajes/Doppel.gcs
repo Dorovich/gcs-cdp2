@@ -442,10 +442,10 @@
 	"attributes": [
 		{
 			"attr_id": "st",
-			"adj": -1,
+			"adj": 0,
 			"calc": {
-				"value": 9,
-				"points": -10
+				"value": 10,
+				"points": 0
 			}
 		},
 		{
@@ -506,10 +506,10 @@
 		},
 		{
 			"attr_id": "per",
-			"adj": 0,
+			"adj": -1,
 			"calc": {
-				"value": 12,
-				"points": 0
+				"value": 11,
+				"points": -5
 			}
 		},
 		{
@@ -520,7 +520,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -528,7 +528,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -536,7 +536,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -544,7 +544,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 11,
 				"points": 0
 			}
 		},
@@ -552,8 +552,8 @@
 			"attr_id": "hp",
 			"adj": 0,
 			"calc": {
-				"value": 9,
-				"current": 9,
+				"value": 10,
+				"current": 10,
 				"points": 0
 			}
 		},
@@ -674,7 +674,7 @@
 						"has": true,
 						"name": {
 							"compare": "is",
-							"qualifier": "Nu'karn"
+							"qualifier": "Species: Nu'karn"
 						}
 					}
 				]
@@ -1044,117 +1044,6 @@
 			}
 		},
 		{
-			"id": "tq0GCcKgkBOih2B1l",
-			"source": {
-				"library": "/gcs-cdp2",
-				"path": "CdP2 Rasgos.adq",
-				"id": "tN3VvTynAa20LiQhn"
-			},
-			"name": "Nu'karn",
-			"local_notes": "Los nu'karn y su presencia representa todo lo disonante del Pentácoro. Su existencia misma es digna de debate, y de fuertes opiniones contradictorias. Son incógnitas parlantes, errores en movimiento, coros en el vacío, ruptura en el orden y la soga de los cuerdos. No es de extrañar que sean repudiados en algunos lugares, y puestos en un pedestal en otros tantos.\n\n_A simple vista es difícil reconocer un nu'karn, ya que por naturaleza o por voluntad propia poseen la forma de cualquier especie (excepto koppemak). Por esto, puede resultar difícil reconocerlos a no ser que se sea suficientemente perspicaz \n–o poner a uno en una situación suficientemente comprometida– como para observar sus rasgos sobrenaturales. Fisonomías inusualmente pálidas u oscuras, falta de pulso, órganos internos grotescos, tonalidades sanguíneas incorrectas: cualquiera de ellas es prueba de estar frente a un nu'karn._",
-			"tags": [
-				"Species"
-			],
-			"base_points": 10,
-			"weapons": [
-				{
-					"id": "w9ccIGt3POnPjoe-y",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr"
-					}
-				},
-				{
-					"id": "waWS3Rh7RTFNWMXkM",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 8,
-						"damage": "1d-2 cr"
-					}
-				},
-				{
-					"id": "wdDYtVnoMFKBC6Wdp",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 10,
-						"damage": "1d-3 cr",
-						"parry": "8"
-					}
-				}
-			],
-			"calc": {
-				"points": 10
-			}
-		},
-		{
 			"id": "tR6docGYZ01-gn0Ib",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1194,6 +1083,227 @@
 			],
 			"calc": {
 				"points": -15
+			}
+		},
+		{
+			"id": "t8x2IvFI3NarRWnCl",
+			"source": {
+				"library": "/gcs-cdp2",
+				"path": "CdP2 Rasgos Nuevos.adq",
+				"id": "tN3VvTynAa20LiQhn"
+			},
+			"name": "Species: Nu'karn",
+			"local_notes": "Los nu'karn y su presencia representa todo lo disonante del Pentácoro. Su existencia misma es digna de debate, y de fuertes opiniones contradictorias. Son incógnitas parlantes, errores en movimiento, coros en el vacío, ruptura en el orden y la soga de los cuerdos. No es de extrañar que sean repudiados en algunos lugares, y puestos en un pedestal en otros tantos.\n\n_A simple vista es difícil reconocer un nu'karn, ya que por naturaleza o por voluntad propia poseen la forma de cualquier especie (excepto koppemak). Por esto, puede resultar difícil reconocerlos a no ser que se sea suficientemente perspicaz \n–o poner a uno en una situación suficientemente comprometida– como para observar sus rasgos sobrenaturales. Fisonomías inusualmente pálidas u oscuras, falta de pulso, órganos internos grotescos, tonalidades sanguíneas incorrectas: cualquiera de ellas es prueba de estar frente a un nu'karn._",
+			"tags": [
+				"Species"
+			],
+			"base_points": 5,
+			"weapons": [
+				{
+					"id": "wGZpxlPnyhmzeMpsT",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr"
+					}
+				},
+				{
+					"id": "wQLEYC_itSVHRzjMv",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 8,
+						"damage": "1d-2 cr"
+					}
+				},
+				{
+					"id": "wt1Am5v9O8-k30sT9",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "ty6ijiRuN667oDPBv",
+			"source": {
+				"library": "/gcs-cdp2",
+				"path": "CdP2 Rasgos Nuevos.adq",
+				"id": "ti38WK9zFITg7XbtV"
+			},
+			"name": "Species: Te'karn",
+			"local_notes": "El ser humano es de las especies más antiguas del Pentácoro, y su origen se ha perdido en los anales de la historia. Su territorio principal es el fértil Valle Eterno que defienden con reliquias militares del pasado. Suelen ser tenaces y ávidos aprendices, algo estúpidos a veces, aunque su sociedad es la mejor establecida de todas, con reglas y legado que abarcan siglos. Muchos de ellos creen que el resto del mundo antaño fue suyo y les pertenece, y aunque no se ha logrado demostrar, la mayoría tiene prejuicios por el resto de especies que lo habitan. Sin embargo, su orgullo mercurial no les ciñe el camino a la prosperidad, pues ciudades te’karn de los valles como Niwel, Boxton o Camdel son los mayores centros culturales, científicos e industriales de los territorios, al menos en su superfície.",
+			"tags": [
+				"Species"
+			],
+			"weapons": [
+				{
+					"id": "wFqjMmhx8c_yAdZK5",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr"
+					}
+				},
+				{
+					"id": "wh9qRDy62UjS24Ldo",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 8,
+						"damage": "1d-2 cr"
+					}
+				},
+				{
+					"id": "wI1N4VuX07hWbXrPr",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"damage": "1d-3 cr",
+						"parry": "8"
+					}
+				}
+			],
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -1481,12 +1591,12 @@
 			"defaulted_from": {
 				"type": "per",
 				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
+				"level": 11,
 				"rsl": "Per+0"
 			}
 		}
@@ -1548,11 +1658,11 @@
 		}
 	],
 	"created_date": "2025-12-27T18:55:56+01:00",
-	"modified_date": "2025-12-27T20:55:55+01:00",
+	"modified_date": "2025-12-29T14:01:45+01:00",
 	"calc": {
-		"swing": "1d-1",
+		"swing": "1d",
 		"thrust": "1d-2",
-		"basic_lift": "16 lb",
+		"basic_lift": "20 lb",
 		"move": [
 			5,
 			4,

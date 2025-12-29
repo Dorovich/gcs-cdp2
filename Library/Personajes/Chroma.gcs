@@ -977,165 +977,6 @@
 			}
 		},
 		{
-			"id": "tZ9ejpJ53oNJ1m9cY",
-			"source": {
-				"library": "/gcs-cdp2",
-				"path": "CdP2 Rasgos.adq",
-				"id": "tPYRX6sQObx-V41k1"
-			},
-			"name": "Kwazaar",
-			"local_notes": "Moradores de ríos, grutas submarinas y regiones húmedas, viven en ciudades esculpidas en la roca en las profundidades de Epna, las metrópolis cóncavas. Sus dietas son carnívoras y sus pieles escamosas, y cuentan con una resistencia formidable. Son grandes pescadores, prospectores y científicos, y hacen alarde de contar con las mejores instituciones y universidades en todo Epna. Han logrado grandes avances tecnológicos que, a diferencia de otras especies, son más reacios a compartir con el resto del mundo. Sus constantes insultos a la soberanía te’karn-koppemak en el desierto les ha valido una trifulca en el pasado reciente, la Guerra Seca.\n\n_Se caracterizan por su adaptabilidad al agua, sangre fría, colas musculosas, dieta carnívora y lenta digestión, su atavismo por estrés y xenofobia._\n\n_Rasgos de subespecie pueden incluir respiración cutánea, mordidas venenosas, escamas endurecidas, autotomía de la cola o capacidad regenerativa aumentada._",
-			"tags": [
-				"Species"
-			],
-			"base_points": 10,
-			"weapons": [
-				{
-					"id": "wJ4vBuPurwd-ktm2J",
-					"sv": 1,
-					"damage": {
-						"type": "cut",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Bite",
-					"reach": "C",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "dx"
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "1d-2 cut"
-					}
-				},
-				{
-					"id": "wi63c4zsuKnlbDcuz",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"modifier_per_die": 1
-					},
-					"usage": "Tail Slap",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d cr"
-					}
-				},
-				{
-					"id": "wBap28czl_dBubQiv",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Kick",
-					"reach": "C,1",
-					"defaults": [
-						{
-							"type": "dx",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Brawling",
-							"modifier": -2
-						},
-						{
-							"type": "skill",
-							"name": "Kicking"
-						},
-						{
-							"type": "skill",
-							"name": "Karate",
-							"modifier": -2
-						}
-					],
-					"calc": {
-						"level": 9,
-						"damage": "1d-1 cr"
-					}
-				},
-				{
-					"id": "wqtFN9eFIxRbQOq5A",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr",
-						"base": "-1"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "skill",
-							"name": "Karate"
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "1d-2 cr",
-						"parry": "8"
-					}
-				}
-			],
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "em",
-					"amount": -1
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "to HT to resist the effects of temperature",
-					"amount": 2
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "to being hit in the face/jaw.",
-					"amount": 1
-				},
-				{
-					"type": "attribute_bonus",
-					"attribute": "iq",
-					"amount": 1
-				}
-			],
-			"calc": {
-				"points": 10
-			}
-		},
-		{
 			"id": "toTjlZejGYB8xAOyU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1592,6 +1433,165 @@
 			"calc": {
 				"points": 4,
 				"current_level": 1
+			}
+		},
+		{
+			"id": "to487329RtoJ5pt-C",
+			"source": {
+				"library": "/gcs-cdp2",
+				"path": "CdP2 Rasgos Nuevos.adq",
+				"id": "tPYRX6sQObx-V41k1"
+			},
+			"name": "Species: Kwazaar",
+			"local_notes": "Moradores de ríos, grutas submarinas y regiones húmedas, viven en ciudades esculpidas en la roca en las profundidades de Epna, las metrópolis cóncavas. Sus dietas son carnívoras y sus pieles escamosas, y cuentan con una resistencia formidable. Son grandes pescadores, prospectores y científicos, y hacen alarde de contar con las mejores instituciones y universidades en todo Epna. Han logrado grandes avances tecnológicos que, a diferencia de otras especies, son más reacios a compartir con el resto del mundo. Sus constantes insultos a la soberanía te’karn-koppemak en el desierto les ha valido una trifulca en el pasado reciente, la Guerra Seca.\n\n_Se caracterizan por su adaptabilidad al agua, sangre fría, colas musculosas, dieta carnívora y lenta digestión, su atavismo por estrés y xenofobia._\n\n_Rasgos de subespecie pueden incluir respiración cutánea, mordidas venenosas, escamas endurecidas, autotomía de la cola o capacidad regenerativa aumentada._",
+			"tags": [
+				"Species"
+			],
+			"base_points": 10,
+			"weapons": [
+				{
+					"id": "wCb1SybraPbEZU9s-",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "dx"
+						}
+					],
+					"calc": {
+						"level": 11,
+						"damage": "1d-2 cut"
+					}
+				},
+				{
+					"id": "wf8RpoDLQGRDcPf8v",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"modifier_per_die": 1
+					},
+					"usage": "Tail Slap",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 9,
+						"damage": "1d cr"
+					}
+				},
+				{
+					"id": "wmwG9T9D1Df1WRW04",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Brawling",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Kicking"
+						},
+						{
+							"type": "skill",
+							"name": "Karate",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 9,
+						"damage": "1d-1 cr"
+					}
+				},
+				{
+					"id": "wPBtVG58xR7xwPI72",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"level": 11,
+						"damage": "1d-2 cr",
+						"parry": "8"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "em",
+					"amount": -1
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to HT to resist the effects of temperature",
+					"amount": 2
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to being hit in the face/jaw.",
+					"amount": 1
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "iq",
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 10
 			}
 		}
 	],
@@ -2179,7 +2179,7 @@
 		}
 	],
 	"created_date": "2025-12-29T02:50:59+01:00",
-	"modified_date": "2025-12-29T13:44:53+01:00",
+	"modified_date": "2025-12-29T14:03:07+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

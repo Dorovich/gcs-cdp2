@@ -571,6 +571,24 @@
 	],
 	"traits": [
 		{
+			"id": "t9ojh4sO9YVJvnC2L",
+			"source": {
+				"library": "/gcs-cdp",
+				"path": "CdP Rasgos (sugerencias).adq",
+				"id": "tbvWrfX49Ucpsmey8"
+			},
+			"name": "Bilingual",
+			"tags": [
+				"Mental",
+				"Perk"
+			],
+			"vtt_notes": "Can have an additional Native language",
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tGDr-VtotkONfzLxY",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -621,6 +639,125 @@
 			"base_points": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tMbcP0hz_e2yorRSO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tIDqwizWRQYDHHGUX"
+			},
+			"name": "Dependent (Sons)",
+			"reference": "B131",
+			"tags": [
+				"Disadvantage",
+				"Social"
+			],
+			"replacements": {
+				"Who": "Sons"
+			},
+			"modifiers": [
+				{
+					"id": "mF30ADbtxrW9sCJMZ",
+					"name": "Point total",
+					"reference": "B131",
+					"local_notes": "100% of your starting points",
+					"cost_adj": "-1",
+					"disabled": true
+				},
+				{
+					"id": "mKtQf5z2iPfH1ifIH",
+					"name": "Point total",
+					"reference": "B131",
+					"local_notes": "75% of your starting points",
+					"cost_adj": "-2",
+					"disabled": true
+				},
+				{
+					"id": "mA6VTyoIC71csRf1-",
+					"name": "Point total",
+					"reference": "B131",
+					"local_notes": "50% of your starting points",
+					"cost_adj": "-5"
+				},
+				{
+					"id": "mYkr5-S1j5TaNGwvV",
+					"name": "Point total",
+					"reference": "B131",
+					"local_notes": "25% of your starting points",
+					"cost_adj": "-10",
+					"disabled": true
+				},
+				{
+					"id": "mgW0S09YX3ZhwAuE8",
+					"name": "Point total",
+					"reference": "B131",
+					"local_notes": "0 or fewer points",
+					"cost_adj": "-15",
+					"disabled": true
+				},
+				{
+					"id": "mxI-MAypza9rYIrG9",
+					"name": "Appears almost all the time",
+					"reference": "B36",
+					"local_notes": "15-",
+					"cost_adj": "x3",
+					"disabled": true
+				},
+				{
+					"id": "m1FW2AujwZ-TyAYFa",
+					"name": "Appears quite often",
+					"reference": "B36",
+					"local_notes": "12-",
+					"cost_adj": "x2"
+				},
+				{
+					"id": "mDuSGJyS-LMnapc3A",
+					"name": "Appears fairly often",
+					"reference": "B36",
+					"local_notes": "9-",
+					"cost_adj": "x1",
+					"disabled": true
+				},
+				{
+					"id": "mEtFHbcwR6COO35Dm",
+					"name": "Appears quite rarely",
+					"reference": "B36",
+					"local_notes": "6-",
+					"cost_adj": "x0.5",
+					"disabled": true
+				},
+				{
+					"id": "mYaNVxx1ztmZ1D-rO",
+					"name": "Group",
+					"reference": "B131",
+					"cost_adj": "x2",
+					"disabled": true
+				},
+				{
+					"id": "mHSNdhzPDVPrkeGwK",
+					"name": "Acquaintance",
+					"reference": "B131",
+					"cost_adj": "x0.5",
+					"disabled": true
+				},
+				{
+					"id": "mkR4nW-mGA-6YALo0",
+					"name": "Friend",
+					"reference": "B131",
+					"cost_adj": "x1",
+					"disabled": true
+				},
+				{
+					"id": "mY9NE4tCjK8eGhuwp",
+					"name": "Loved one",
+					"reference": "B131",
+					"cost_adj": "x2"
+				}
+			],
+			"calc": {
+				"points": -20
 			}
 		},
 		{
@@ -832,24 +969,6 @@
 			"base_points": 40,
 			"calc": {
 				"points": 20
-			}
-		},
-		{
-			"id": "t9ojh4sO9YVJvnC2L",
-			"source": {
-				"library": "/gcs-cdp",
-				"path": "CdP Rasgos (sugerencias).adq",
-				"id": "tbvWrfX49Ucpsmey8"
-			},
-			"name": "Bilingual",
-			"tags": [
-				"Mental",
-				"Perk"
-			],
-			"vtt_notes": "Can have an additional Native language",
-			"base_points": 1,
-			"calc": {
-				"points": 1
 			}
 		},
 		{
@@ -1187,13 +1306,13 @@
 			}
 		},
 		{
-			"id": "t0I7ElTR2V8QnhXTg",
+			"id": "t7ezMd-f7kAOv5L2r",
 			"source": {
 				"library": "/gcs-cdp2",
-				"path": "CdP2 Rasgos.adq",
+				"path": "CdP2 Rasgos Nuevos.adq",
 				"id": "t-BhsRlY4Vn-02OVl"
 			},
-			"name": "O'koptera",
+			"name": "Species: O'koptera",
 			"local_notes": "Impredecibles, siguen las leyes naturales y rara vez se integran en una sociedad con reglas diferentes y confusas. Forman familias en jerarquías por castas, donde se valora el honor de las casas por encima de todo, además de la rivalidad entre casas. Tienen una mala fama de caníbales, y cierta es, ya que no es tan raro ver o’koptera consumiendo a otros de su especie por motivos varios en los lugares menos civilizados. Se enorgullecen de sus logros y son muy territoriales, recurriendo a toda clase de trucos para deshacerse de sus invasores. Aunque muchos los consideran salvajes, amorales, o simples mercenarios, su mundo es de lo más variado y complejo. Técnicas comúnmente rastreras como la hipnosis, chantaje, amenaza, control mental u otros engaños son de lo más cotidianas para ellos.\n\n_Se caracterizan por sus exoesqueletos quitinosos, agudísimo sentido del olfato, cuatro ligeros brazos, la capacidad de comunicarse por señales químicas en el aire, vulnerabilidad a las quemaduras, y una reducida esperanza de vida._\n\n_Rasgos de subespecie suelen incluir alas membranosas o escamadas, colmillos o aguijones para inyectar agentes tóxicos o paralizantes, o filos cortantes o dentados en las extremidades._",
 			"tags": [
 				"Species"
@@ -1201,7 +1320,7 @@
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "w44wSTDfPPweZCXAK",
+					"id": "wcCm3z2X0s3SlTgEB",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1225,7 +1344,7 @@
 					}
 				},
 				{
-					"id": "wOgA7NWun4kMShcR_",
+					"id": "w2-045F9D9AN7jwrW",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1259,7 +1378,7 @@
 					}
 				},
 				{
-					"id": "wDdQLhWvmRGTzBgHb",
+					"id": "wn3-SSp4s6kwi4V6G",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1378,125 +1497,6 @@
 			],
 			"calc": {
 				"points": 15
-			}
-		},
-		{
-			"id": "tMbcP0hz_e2yorRSO",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tIDqwizWRQYDHHGUX"
-			},
-			"name": "Dependent (Sons)",
-			"reference": "B131",
-			"tags": [
-				"Disadvantage",
-				"Social"
-			],
-			"replacements": {
-				"Who": "Sons"
-			},
-			"modifiers": [
-				{
-					"id": "mF30ADbtxrW9sCJMZ",
-					"name": "Point total",
-					"reference": "B131",
-					"local_notes": "100% of your starting points",
-					"cost_adj": "-1",
-					"disabled": true
-				},
-				{
-					"id": "mKtQf5z2iPfH1ifIH",
-					"name": "Point total",
-					"reference": "B131",
-					"local_notes": "75% of your starting points",
-					"cost_adj": "-2",
-					"disabled": true
-				},
-				{
-					"id": "mA6VTyoIC71csRf1-",
-					"name": "Point total",
-					"reference": "B131",
-					"local_notes": "50% of your starting points",
-					"cost_adj": "-5"
-				},
-				{
-					"id": "mYkr5-S1j5TaNGwvV",
-					"name": "Point total",
-					"reference": "B131",
-					"local_notes": "25% of your starting points",
-					"cost_adj": "-10",
-					"disabled": true
-				},
-				{
-					"id": "mgW0S09YX3ZhwAuE8",
-					"name": "Point total",
-					"reference": "B131",
-					"local_notes": "0 or fewer points",
-					"cost_adj": "-15",
-					"disabled": true
-				},
-				{
-					"id": "mxI-MAypza9rYIrG9",
-					"name": "Appears almost all the time",
-					"reference": "B36",
-					"local_notes": "15-",
-					"cost_adj": "x3",
-					"disabled": true
-				},
-				{
-					"id": "m1FW2AujwZ-TyAYFa",
-					"name": "Appears quite often",
-					"reference": "B36",
-					"local_notes": "12-",
-					"cost_adj": "x2"
-				},
-				{
-					"id": "mDuSGJyS-LMnapc3A",
-					"name": "Appears fairly often",
-					"reference": "B36",
-					"local_notes": "9-",
-					"cost_adj": "x1",
-					"disabled": true
-				},
-				{
-					"id": "mEtFHbcwR6COO35Dm",
-					"name": "Appears quite rarely",
-					"reference": "B36",
-					"local_notes": "6-",
-					"cost_adj": "x0.5",
-					"disabled": true
-				},
-				{
-					"id": "mYaNVxx1ztmZ1D-rO",
-					"name": "Group",
-					"reference": "B131",
-					"cost_adj": "x2",
-					"disabled": true
-				},
-				{
-					"id": "mHSNdhzPDVPrkeGwK",
-					"name": "Acquaintance",
-					"reference": "B131",
-					"cost_adj": "x0.5",
-					"disabled": true
-				},
-				{
-					"id": "mkR4nW-mGA-6YALo0",
-					"name": "Friend",
-					"reference": "B131",
-					"cost_adj": "x1",
-					"disabled": true
-				},
-				{
-					"id": "mY9NE4tCjK8eGhuwp",
-					"name": "Loved one",
-					"reference": "B131",
-					"cost_adj": "x2"
-				}
-			],
-			"calc": {
-				"points": -20
 			}
 		}
 	],
@@ -1843,7 +1843,7 @@
 		}
 	],
 	"created_date": "2025-12-27T06:01:12+01:00",
-	"modified_date": "2025-12-29T13:51:13+01:00",
+	"modified_date": "2025-12-29T14:02:43+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
