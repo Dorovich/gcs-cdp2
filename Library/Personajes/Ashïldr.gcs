@@ -1071,6 +1071,40 @@
 	],
 	"skills": [
 		{
+			"id": "s9iemTozuj5__iiFC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
+			},
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"tech_level": "6",
+			"points": 2,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "IQ+1"
+			}
+		},
+		{
 			"id": "so2QD0g6_Bf8PQ0df",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1108,82 +1142,54 @@
 			}
 		},
 		{
-			"id": "s9iemTozuj5__iiFC",
+			"id": "suymnEyKhFc_x5EgV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shCDVQzZKFQTj_qbS"
+				"id": "swXuff1DBhSQbTqy1"
 			},
-			"name": "Airman",
-			"reference": "B185",
-			"reference_highlight": "Airshipman",
+			"name": "Electronics Operation",
+			"reference": "B189",
 			"tags": [
-				"Vehicle"
+				"Technical"
 			],
-			"difficulty": "iq/e",
+			"specialization": "Communications",
+			"difficulty": "iq/a",
 			"defaults": [
 				{
 					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Operation",
 					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Repair",
+					"specialization": "Communications",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
 				}
 			],
 			"tech_level": "6",
 			"points": 2,
 			"defaulted_from": {
 				"type": "iq",
-				"modifier": -4,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "IQ+1"
-			}
-		},
-		{
-			"id": "sPyQlPIM79Ln4B-NN",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sH0t4LjU0g6wd4gNi"
-			},
-			"name": "Piloting",
-			"reference": "B214",
-			"tags": [
-				"Vehicle"
-			],
-			"specialization": "Floater",
-			"difficulty": "dx/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Piloting",
-					"specialization": "Vertol",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Piloting",
-					"modifier": -5
-				}
-			],
-			"tech_level": "6",
-			"points": 4,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -6,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 12,
-				"rsl": "DX+1"
+				"level": 11,
+				"rsl": "IQ+0"
 			}
 		},
 		{
@@ -1268,11 +1274,11 @@
 			}
 		},
 		{
-			"id": "sHktgAzLveiUyPsnd",
+			"id": "s_ajNy4dUpGdyovhp",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sm4VKEsooHU6KLuFP"
+				"id": "sjiPOdZOS0Ve3xMhr"
 			},
 			"name": "Mechanic",
 			"reference": "B207",
@@ -1280,9 +1286,15 @@
 				"Maintenance",
 				"Repair"
 			],
-			"specialization": "Floater",
+			"specialization": "Light Arkopan",
 			"difficulty": "iq/a",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Heavy Arkopan",
+					"modifier": -3
+				},
 				{
 					"type": "iq",
 					"modifier": -5
@@ -1290,7 +1302,7 @@
 				{
 					"type": "skill",
 					"name": "Engineer",
-					"specialization": "Contragravity",
+					"specialization": "Arkopan",
 					"modifier": -4
 				},
 				{
@@ -1385,6 +1397,51 @@
 			}
 		},
 		{
+			"id": "sPyQlPIM79Ln4B-NN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sH0t4LjU0g6wd4gNi"
+			},
+			"name": "Piloting",
+			"reference": "B214",
+			"tags": [
+				"Vehicle"
+			],
+			"specialization": "Floater",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Vertol",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"modifier": -5
+				}
+			],
+			"tech_level": "6",
+			"points": 4,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "DX+1"
+			}
+		},
+		{
 			"id": "sVhfBH16syFbYt8vg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1422,57 +1479,6 @@
 			"calc": {
 				"level": 10,
 				"rsl": "DX+0"
-			}
-		},
-		{
-			"id": "suymnEyKhFc_x5EgV",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "swXuff1DBhSQbTqy1"
-			},
-			"name": "Electronics Operation",
-			"reference": "B189",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "Communications",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Operation",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Repair",
-					"specialization": "Communications",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Electronics",
-					"modifier": -5
-				}
-			],
-			"tech_level": "6",
-			"points": 2,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 11,
-				"rsl": "IQ+0"
 			}
 		}
 	],
@@ -1689,7 +1695,7 @@
 		}
 	],
 	"created_date": "2025-12-28T17:51:15+01:00",
-	"modified_date": "2026-01-04T04:15:53+01:00",
+	"modified_date": "2026-01-04T22:34:18+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

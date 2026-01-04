@@ -1360,24 +1360,33 @@
 			}
 		},
 		{
-			"id": "s8b_YUCFIlmSOLpkT",
+			"id": "spqy1CHrMzSDNE7oc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "sXAYzMbS6PQtqZ3Qg"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sahD-JZ6YhK8Y91Ug"
 			},
 			"name": "Disguise",
-			"reference": "Lite14",
+			"reference": "B187",
 			"tags": [
 				"Criminal",
 				"Spy",
 				"Street"
 			],
+			"replacements": {
+				"Specialty": "Te'karn"
+			},
+			"specialization": "@Specialty@",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
 					"type": "iq",
 					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Makeup",
+					"modifier": -3
 				}
 			],
 			"tech_level": "6",
@@ -1624,7 +1633,7 @@
 		}
 	],
 	"created_date": "2025-12-27T18:55:56+01:00",
-	"modified_date": "2025-12-30T14:15:04+01:00",
+	"modified_date": "2026-01-04T22:44:59+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

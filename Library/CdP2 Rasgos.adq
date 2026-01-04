@@ -146,25 +146,6 @@
 			}
 		},
 		{
-			"id": "tWFpspsPH5geT1Aku",
-			"name": "Skill Familiarity (@Skill@: @Specialty@)",
-			"modifiers": [
-				{
-					"id": "mAsajZWYQ6ifx7_WF",
-					"name": "First",
-					"cost_adj": "x0",
-					"disabled": true
-				}
-			],
-			"points_per_level": 1,
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 1,
-				"current_level": 1
-			}
-		},
-		{
 			"id": "tWm9O63n5b9-C3a8T",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -302,176 +283,6 @@
 			],
 			"calc": {
 				"points": 5
-			}
-		},
-		{
-			"id": "tC__7G1HZ0t1UxD8H",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tscmSYJJXncLjOvVM"
-			},
-			"name": "Masterful Strikes (@Strike@)",
-			"local_notes": "+1 thr damage per die for Unarmed Strikes",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"points_per_level": 1,
-			"features": [
-				{
-					"type": "weapon_bonus",
-					"selection_type": "weapons_with_name",
-					"specialization": {
-						"compare": "is",
-						"qualifier": "@Strike@"
-					},
-					"amount": 1,
-					"leveled": true,
-					"per_die": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 1,
-				"current_level": 1
-			}
-		},
-		{
-			"id": "thL66bD3ZQk_yiGWp",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tVk4-Ar_N6Qy4BbD4"
-			},
-			"name": "Fist Load",
-			"local_notes": "Use blackjacks and saps and other weapons with Striking skill",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "trhQo843Dj28qkfm1",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tdBQ3Gqc0nNMX258q"
-			},
-			"name": "Kick Mastery",
-			"local_notes": "No -2 to kick. No DX check to fall down on a missed kick.",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"base_points": 1,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "weapons_with_name",
-					"name": {
-						"compare": "contains",
-						"qualifier": "Natural Attacks"
-					},
-					"specialization": {
-						"compare": "contains",
-						"qualifier": "Kick"
-					},
-					"amount": 2
-				}
-			],
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tkaUOweSWhu7I1y5z",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tob27-9jcS__rJeWF"
-			},
-			"name": "Knife Striking",
-			"local_notes": "Use knives with Striking skill",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tqOhS7r53IU4rCcKk",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tQWuWWBrKN9oFj1bp"
-			},
-			"name": "No Unarmed Swing Parry Penalty",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tJAGpdeLhb_BKbPGg",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tQWuWWBrKN9oFj1bp"
-			},
-			"name": "Parry Twice per Turn",
-			"local_notes": "Once with each arm",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "t5mmeyWw-ttj_TwJq",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Traits.adq",
-				"id": "tQWuWWBrKN9oFj1bp"
-			},
-			"name": "Agile Retreat",
-			"local_notes": "+3 to Parry when retreating",
-			"tags": [
-				"Perk",
-				"Physical",
-				"Unarmed"
-			],
-			"base_points": 1,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to Parry when retreating in combat",
-					"amount": 3
-				}
-			],
-			"calc": {
-				"points": 1
 			}
 		},
 		{
@@ -1437,6 +1248,32 @@
 			"calc": {
 				"points": 21,
 				"current_level": 1
+			}
+		},
+		{
+			"id": "t5mmeyWw-ttj_TwJq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tQWuWWBrKN9oFj1bp"
+			},
+			"name": "Agile Retreat",
+			"local_notes": "+3 to Parry when retreating",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Parry when retreating in combat",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"points": 1
 			}
 		},
 		{
@@ -10048,6 +9885,25 @@
 			}
 		},
 		{
+			"id": "thL66bD3ZQk_yiGWp",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tVk4-Ar_N6Qy4BbD4"
+			},
+			"name": "Fist Load",
+			"local_notes": "Use blackjacks and saps and other weapons with Striking skill",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "t9rKCmiFQoaKey3Jz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -16613,6 +16469,40 @@
 			}
 		},
 		{
+			"id": "trhQo843Dj28qkfm1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tdBQ3Gqc0nNMX258q"
+			},
+			"name": "Kick Mastery",
+			"local_notes": "No -2 to kick. No DX check to fall down on a missed kick.",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "weapons_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "Natural Attacks"
+					},
+					"specialization": {
+						"compare": "contains",
+						"qualifier": "Kick"
+					},
+					"amount": 2
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tyWZRwCnGjhSgexfd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -16733,6 +16623,25 @@
 			"base_points": -5,
 			"calc": {
 				"points": -5
+			}
+		},
+		{
+			"id": "tkaUOweSWhu7I1y5z",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tob27-9jcS__rJeWF"
+			},
+			"name": "Knife Striking",
+			"local_notes": "Use knives with Striking skill",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
 			}
 		},
 		{
@@ -18769,35 +18678,60 @@
 			}
 		},
 		{
-			"id": "tVJdUL9YbQgXZwxk_",
+			"id": "t4ANyNhFhQzb_frNM",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Traits.adq",
-				"id": "tNvGbBknp_hk_UPfv"
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tz-USDL9B_KrrVqDi"
 			},
-			"name": "Lucky Break",
-			"reference": "Lite9",
-			"local_notes": "One luck use (best of three rolls) per game session. Dependant on player count and game time. The use may be recharged at the GM's discretion.",
+			"name": "Luck",
+			"reference": "B66,P59",
+			"local_notes": "Usable once per hour of play",
 			"tags": [
-				"Advantage"
+				"Advantage",
+				"Mental"
 			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "starts_with",
-							"qualifier": "Luck"
-						}
-					}
-				]
-			},
-			"base_points": 3,
+			"modifiers": [
+				{
+					"id": "mgMkgu9HI8t0M9R6f",
+					"name": "Active",
+					"reference": "B66",
+					"cost_adj": "-40%",
+					"disabled": true
+				},
+				{
+					"id": "mosPiBMbbY7kxeAWe",
+					"name": "Aspected",
+					"reference": "B66",
+					"local_notes": "@Aspect@",
+					"cost_adj": "-20%",
+					"disabled": true
+				},
+				{
+					"id": "mpLSKlLQor0h1CEJ7",
+					"name": "Defensive",
+					"reference": "B66",
+					"cost_adj": "-20%",
+					"disabled": true
+				},
+				{
+					"id": "mv3_aYiq29e0_5-rF",
+					"name": "Wishing",
+					"reference": "P59",
+					"cost_adj": "100%",
+					"disabled": true
+				},
+				{
+					"id": "m-2TpyUcIg1syEkp3",
+					"name": "Game Time",
+					"reference": "P108",
+					"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
+					"disabled": true
+				}
+			],
+			"base_points": 15,
 			"calc": {
-				"points": 3
+				"points": 15
 			}
 		},
 		{
@@ -19265,6 +19199,41 @@
 			"base_points": -20,
 			"calc": {
 				"points": -20
+			}
+		},
+		{
+			"id": "tC__7G1HZ0t1UxD8H",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tscmSYJJXncLjOvVM"
+			},
+			"name": "Masterful Strikes (@Strike@)",
+			"local_notes": "+1 thr damage per die for Unarmed Strikes",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"points_per_level": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "@Strike@"
+					},
+					"amount": 1,
+					"leveled": true,
+					"per_die": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{
@@ -21588,6 +21557,24 @@
 			}
 		},
 		{
+			"id": "tqOhS7r53IU4rCcKk",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tQWuWWBrKN9oFj1bp"
+			},
+			"name": "No Unarmed Swing Parry Penalty",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "tBFFUPc4ihSNogC_w",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -22536,6 +22523,25 @@
 			],
 			"calc": {
 				"points": -10
+			}
+		},
+		{
+			"id": "tJAGpdeLhb_BKbPGg",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tQWuWWBrKN9oFj1bp"
+			},
+			"name": "Parry Twice per Turn",
+			"local_notes": "Once with each arm",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
 			}
 		},
 		{
@@ -28783,6 +28789,25 @@
 			],
 			"calc": {
 				"points": 5
+			}
+		},
+		{
+			"id": "tWFpspsPH5geT1Aku",
+			"name": "Skill Familiarity (@Skill@: @Specialty@)",
+			"modifiers": [
+				{
+					"id": "mAsajZWYQ6ifx7_WF",
+					"name": "First",
+					"cost_adj": "x0",
+					"disabled": true
+				}
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
 			}
 		},
 		{

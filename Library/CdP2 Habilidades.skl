@@ -486,6 +486,37 @@
 			"points": 1
 		},
 		{
+			"id": "sc-R9_33EBUQW6q2_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sku11uyd1oUdTaIPX"
+			},
+			"name": "Armoury",
+			"reference": "B178",
+			"tags": [
+				"Maintenance",
+				"Military",
+				"Repair"
+			],
+			"specialization": "Exosuits",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Exosuits",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
 			"id": "sk8BXmAC9ZXcXtF5H",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1061,7 +1092,8 @@
 				},
 				{
 					"type": "skill",
-					"name": "Architecture",
+					"name": "Engineer",
+					"specialization": "Civil: Architecture",
 					"modifier": -3
 				},
 				{
@@ -1216,7 +1248,8 @@
 				},
 				{
 					"type": "skill",
-					"name": "Architecture",
+					"name": "Engineer",
+					"specialization": "Civil: Architecture",
 					"modifier": -3
 				},
 				{
@@ -3243,8 +3276,8 @@
 			"defaults": [
 				{
 					"type": "skill",
-					"name": "Armoury",
-					"specialization": "Heavy Weapons",
+					"name": "Mechanic",
+					"specialization": "@Field of expertise@",
 					"modifier": -6
 				}
 			],
@@ -3293,7 +3326,123 @@
 				{
 					"type": "skill",
 					"name": "Mechanic",
-					"specialization": "Arkopan",
+					"specialization": "Heavy Arkopan",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Light Arkopan",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sGozUBCTtmjY3e1wU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s_QPsaG-MtZBFWSgN"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Arkopan: Heavy Arkopan",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Light Arkopan",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Heavy Arkopan",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sfMBZNqRx18FLEwi2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s_QPsaG-MtZBFWSgN"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Arkopan: Light Arkopan",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Heavy Arkopan",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Light Arkopan",
 					"modifier": -6
 				}
 			],
@@ -3693,6 +3842,55 @@
 			"points": 1
 		},
 		{
+			"id": "s1UhKr9_TpdVayyPI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sA6P5KJBe3XByGYc9"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Exosuits",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Armoury",
+					"specialization": "Exosuits",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
 			"id": "szrZ8s3ZEDvZv1-3P",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -3799,6 +3997,55 @@
 				{
 					"type": "skill",
 					"name": "Geology",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sUKaTzxC1IJausjNT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s_QPsaG-MtZBFWSgN"
+			},
+			"name": "Engineer",
+			"reference": "B190",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"specialization": "Nokk",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Nokk",
 					"modifier": -6
 				}
 			],
@@ -5206,34 +5453,6 @@
 			"points": 1
 		},
 		{
-			"id": "sUO0TUw0a0e2cvRN4",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sYlFWI7xkIaK8OMWP"
-			},
-			"name": "Heraldry",
-			"reference": "B199",
-			"tags": [
-				"Knowledge",
-				"Social"
-			],
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Etiquette",
-					"specialization": "High Society",
-					"modifier": -3
-				}
-			],
-			"points": 1
-		},
-		{
 			"id": "sCPUAcYhhXKS-XYDd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6254,46 +6473,6 @@
 			"points": 1
 		},
 		{
-			"id": "sbzNDkYLR5v8lh3Np",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sjiPOdZOS0Ve3xMhr"
-			},
-			"name": "Mechanic",
-			"reference": "B207",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Arkopan",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Arkopan",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Machinist",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sKgPPKUM3VejKfyDX",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6414,46 +6593,6 @@
 			"points": 1
 		},
 		{
-			"id": "s1OJUVzwMr19iW1qK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sm4VKEsooHU6KLuFP"
-			},
-			"name": "Mechanic",
-			"reference": "B207",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Contragravity",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Contragravity",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Machinist",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sNZdXTY8_vqN33mNL",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6477,6 +6616,46 @@
 					"type": "skill",
 					"name": "Engineer",
 					"specialization": "Diesel Engine",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s1OJUVzwMr19iW1qK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sm4VKEsooHU6KLuFP"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Floater",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Floater",
 					"modifier": -4
 				},
 				{
@@ -6654,6 +6833,52 @@
 			"points": 1
 		},
 		{
+			"id": "sStasvs3Y2-zXyyVV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjiPOdZOS0Ve3xMhr"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Heavy Arkopan",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Light Arkopan",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Arkopan",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
 			"id": "suMvml99Y_pVmpI6r",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6774,6 +6999,52 @@
 			"points": 1
 		},
 		{
+			"id": "s_d-ZUi1QhtnxJevz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjiPOdZOS0Ve3xMhr"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Light Arkopan",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"specialization": "Heavy Arkopan",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Arkopan",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
 			"id": "sJanC6LuswZl94jNz",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6877,6 +7148,46 @@
 					"type": "skill",
 					"name": "Engineer",
 					"specialization": "Motorcycle",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sJzzVvQMQntXOR7eB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjiPOdZOS0Ve3xMhr"
+			},
+			"name": "Mechanic",
+			"reference": "B207",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"specialization": "Nokk",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Nokk",
 					"modifier": -4
 				},
 				{
@@ -8322,7 +8633,7 @@
 			"tags": [
 				"Vehicle"
 			],
-			"specialization": "Contragravity",
+			"specialization": "Floater",
 			"difficulty": "dx/a",
 			"defaults": [
 				{
@@ -8555,8 +8866,14 @@
 				"Humanities",
 				"Social Sciences"
 			],
+			"specialization": "@Species@",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -3
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -9152,6 +9469,12 @@
 			"specialization": "Airship",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Floater",
+					"modifier": -5
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -10081,6 +10404,67 @@
 			"points": 1
 		},
 		{
+			"id": "s2b97asa8yh-Uv4zB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sgrDrFiOdLC9njqnC"
+			},
+			"name": "Surgery",
+			"reference": "B223",
+			"tags": [
+				"Medical"
+			],
+			"specialization": "@Optional Specialty@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -12
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Physiology",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "first aid"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "physician"
+						}
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
 			"id": "sVZ53M7105EbbSll3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -10940,6 +11324,11 @@
 			"difficulty": "dx/e",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Throwing",
+					"modifier": -3
+				},
+				{
 					"type": "dx",
 					"modifier": -4
 				}
@@ -11023,37 +11412,13 @@
 			"difficulty": "dx/e",
 			"defaults": [
 				{
-					"type": "dx",
-					"modifier": -4
-				}
-			],
-			"points": 1
-		},
-		{
-			"id": "s_Z87SzXZWXeqkTE2",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6sHR8eiTIhFZvXjf"
-			},
-			"name": "Throwing",
-			"reference": "B226",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Shuriken",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
 					"type": "skill",
 					"name": "Throwing",
-					"modifier": -2
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
 				}
 			],
 			"points": 1
@@ -11075,6 +11440,11 @@
 			"specialization": "Spear",
 			"difficulty": "dx/e",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Throwing",
+					"modifier": -3
+				},
 				{
 					"type": "dx",
 					"modifier": -4
@@ -11110,6 +11480,11 @@
 			"specialization": "Stick",
 			"difficulty": "dx/e",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Throwing",
+					"modifier": -3
+				},
 				{
 					"type": "dx",
 					"modifier": -4

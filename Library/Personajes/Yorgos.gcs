@@ -1234,9 +1234,9 @@
 						}
 					],
 					"calc": {
-						"level": 13,
-						"damage": "1d+2 cr",
-						"parry": "8"
+						"level": 11,
+						"damage": "1d+1 cr",
+						"parry": "7"
 					}
 				},
 				{
@@ -1267,8 +1267,8 @@
 						}
 					],
 					"calc": {
-						"level": 11,
-						"damage": "1d+2 cr"
+						"level": 9,
+						"damage": "1d+1 cr"
 					}
 				},
 				{
@@ -1291,8 +1291,8 @@
 						}
 					],
 					"calc": {
-						"level": 13,
-						"damage": "1d cr"
+						"level": 11,
+						"damage": "1d-1 cr"
 					}
 				},
 				{
@@ -1325,8 +1325,8 @@
 						}
 					],
 					"calc": {
-						"level": 11,
-						"damage": "1d+1 cr"
+						"level": 9,
+						"damage": "1d cr"
 					}
 				},
 				{
@@ -1358,9 +1358,9 @@
 						}
 					],
 					"calc": {
-						"level": 13,
-						"damage": "1d cr",
-						"parry": "10"
+						"level": 11,
+						"damage": "1d-1 cr",
+						"parry": "9"
 					}
 				}
 			],
@@ -1401,36 +1401,18 @@
 	],
 	"skills": [
 		{
-			"id": "s1zA5zFmsvQVFNJKR",
+			"id": "sOSK-OwXXxar65UgQ",
 			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s7JoMxcn1NBzEO6g9"
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Skills.skl",
+				"id": "svNOISP2hf1AAaBQ1"
 			},
-			"name": "Brawling",
-			"reference": "Lite14",
+			"name": "Striking",
 			"tags": [
 				"Combat",
-				"Melee Combat",
-				"Weapon"
+				"Melee Combat"
 			],
 			"difficulty": "dx/e",
-			"features": [
-				{
-					"type": "weapon_bonus",
-					"selection_type": "weapons_with_required_skill",
-					"name": {
-						"compare": "is",
-						"qualifier": "Brawling"
-					},
-					"level": {
-						"compare": "at_least",
-						"qualifier": 2
-					},
-					"amount": 1,
-					"per_die": true
-				}
-			],
 			"points": 4,
 			"calc": {
 				"level": 13,
@@ -1475,14 +1457,14 @@
 			}
 		},
 		{
-			"id": "sbda9CJTr7HnwafUN",
+			"id": "sD85Lmv96e00lqzq8",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "sWq-R405fYphWhtjW"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
 			},
-			"name": "Crewman",
-			"reference": "Lite14",
+			"name": "Airman",
+			"reference": "B185",
 			"tags": [
 				"Vehicle"
 			],
@@ -1685,23 +1667,71 @@
 			}
 		},
 		{
-			"id": "s9uXExBDDJrIXD5Cm",
+			"id": "sNgj0YYudeW4bEpBa",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s5FuGi754RQOnvWbs"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "ssRqX3yoUzXbHyiJE"
 			},
 			"name": "Survival",
-			"reference": "Lite17",
+			"reference": "B223",
 			"tags": [
 				"Exploration",
 				"Outdoor"
 			],
+			"specialization": "Desert",
 			"difficulty": "per/a",
 			"defaults": [
 				{
 					"type": "per",
 					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Arctic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Island/Beach",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Jungle",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Mountain",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Plains",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Swampland",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Woodlands",
+					"modifier": -3
 				}
 			],
 			"points": 2,
@@ -2123,7 +2153,7 @@
 		}
 	],
 	"created_date": "2025-12-27T04:24:10+01:00",
-	"modified_date": "2025-12-30T14:15:22+01:00",
+	"modified_date": "2026-01-04T22:35:40+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",
