@@ -8,10 +8,13 @@ Cada personaje debe escoger el rasgo de una de las especies de la campaña (cost
 
 En cuanto a las habilidades, debe escoger únicamente las que concuerden con su concepto de personaje. Una estructura posible es la siguiente:
 
-- Entre 1 y 2 habilidades "núcleo", características del personaje, que representan en lo que sobresale. Lo normal es que sean las de nivel más alto entre las que tiene. Nivel final esperado: entre 12 y 13.
-- Entre 1 y 8 habilidades "complementarias", que representan otras actividades donde es capaz, pero no tan (o menos) competente. Nivel esperado: 8-11.
+- Entre 1 y 3 habilidades "núcleo", características del personaje, que representan en lo que sobresale. Lo normal es que sean las de nivel más alto entre las que tiene. Nivel final esperado: entre 11 y 13.
+- Entre 1 y 9 habilidades "complementarias", que representan otras actividades donde es capaz, pero no tan (o menos) competente. Nivel final esperado: entre 7 y 11.
 
-Si los atributos de un personaje sobresalen (13 o más), o es de edad adulta y veterano en sus habilidades tras años de experiencia, podría empezar con habilidades "núcleo" de hasta 15 y secundarias hasta 12 (en función de qué atributo sea el de valor extremo).
+> [!TIP]
+> Creación rápida (elección de habilidades): 2 núcleo, 5 complementarias.
+
+Si los atributos de un personaje sobresalen (13 o más), o es de edad adulta y veterano en sus habilidades tras años de experiencia, podría empezar con hasta 3 o 4 habilidades "núcleo" (de nivel máximo 15) y hasta 12 secundarias (de nivel máximo 12), en función de qué atributo sea el de valor extremo.
 
 Mantengo el total de puntos bajo y uso esta estructura para fomentar que los personajes se especializen, y que no sean "buenos en todo" y puedan hacer cualquier cosa por su cuenta. De esta forma, tendrán que recurrir a otros personajes que sean competenten en disciplinas que no conocen e interactuar con ellos para conseguir ayuda. Otro efecto secundario que espero es que, al tener habilidades más concretas que quizá no se pueden aplicar de forma evidente a muchas situaciones, los jugadores deberían pensar en usos creativos de los conocimientos de sus personajes para resolver sus problemas. No subestimes a un personaje cuyas habilidades "núcleo" sean algunas como *Matemáticas*, *Contabilidad* o *Psicología*.
 
