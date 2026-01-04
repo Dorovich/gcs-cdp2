@@ -1,0 +1,2095 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "scfOOf9io5keUi_o9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sv8bbqi43N5L13NBS"
+			},
+			"name": "Acrobatics",
+			"reference": "Lite13",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sAXownrUH6kixYqXw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sAjttVf5lmN303QB5"
+			},
+			"name": "Acting",
+			"reference": "Lite13",
+			"tags": [
+				"Social",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sLgEwWGMbJF-_SurF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "ssecYbaFsoH9jUoe2"
+			},
+			"name": "Animal Handling",
+			"reference": "Lite14",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sP9sR88nOv12IZyk0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sKvcIonyGQ-pWKWPu"
+			},
+			"name": "Armoury",
+			"reference": "Lite14",
+			"tags": [
+				"Maintenance",
+				"Military",
+				"Repair"
+			],
+			"vtt_notes": "Specialties include: Melee Weapons, Firearms, Body Armor, Vehicular Armor.",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sb45nMpGFnFezn1c6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "so2dZGbttZSVbQq6_"
+			},
+			"name": "Axe/Mace",
+			"reference": "Lite15",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbi6DQKf-fhSWx63G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "szxjMQFAmDbBnjzQO"
+			},
+			"name": "Blowpipe",
+			"reference": "Lite16",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "silz0j-kNSwkCoL6Y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sL_TKwUQAt6dUfFvT"
+			},
+			"name": "Boating",
+			"reference": "Lite17",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sOhZIN5wmShIyvsC6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "szxjMQFAmDbBnjzQO"
+			},
+			"name": "Bow",
+			"reference": "Lite16",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sAoCdoAAgtxJEXLgq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s7JoMxcn1NBzEO6g9"
+			},
+			"name": "Brawling",
+			"reference": "Lite14",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 1,
+					"per_die": true
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1A6C0V0zhT3QSLeD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sTJRL7LassYuTfYkP"
+			},
+			"name": "Camouflage",
+			"reference": "Lite14",
+			"tags": [
+				"Exploration",
+				"Military",
+				"Outdoor"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -2
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s_h4080nkIQl-2PqW",
+			"source": {
+				"library": "/gcs-cdp2",
+				"path": "CdP2 Habilidades (alternativas).skl",
+				"id": "sWhIcYIyb6KT7Ssrj"
+			},
+			"name": "Cannon",
+			"reference": "Lite16",
+			"reference_highlight": "Gunner",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s_qstAYZZOvKipX2R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sCA_fMQaAo7bLjj6g"
+			},
+			"name": "Carousing",
+			"reference": "Lite14",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Street"
+			],
+			"difficulty": "ht/e",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sXaZG7GGldSDv_8va",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "si1veqKKaxuyaKujx"
+			},
+			"name": "Climbing",
+			"reference": "Lite14",
+			"tags": [
+				"Athletic",
+				"Criminal",
+				"Exploration",
+				"Outdoor",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sNm-6I7qOsCWoLCx8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sUP-VWqfpwK6WQaK-"
+			},
+			"name": "Computers",
+			"reference": "Lite14",
+			"tags": [
+				"Design",
+				"Invention",
+				"Technical"
+			],
+			"difficulty": "iq/h",
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "skb8TrSrfeOLvvgBD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sWq-R405fYphWhtjW"
+			},
+			"name": "Crewman",
+			"reference": "Lite14",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sERi5JX5BMqt8jcKS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s9BVplo-ac_ZEEFSA"
+			},
+			"name": "Crossbow",
+			"reference": "Lite16",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s_hf6zvPYtYxqSzUs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "shmhVHkraIa1MBjPn"
+			},
+			"name": "Diagnosis",
+			"reference": "Lite14",
+			"tags": [
+				"Medical"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sLRI47ytBRJLuxgGQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "svXnAg14OZ2J9eNBn"
+			},
+			"name": "Diplomacy",
+			"reference": "Lite15",
+			"tags": [
+				"Business",
+				"Police",
+				"Social"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sPtsvv5-m4nR3N761",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sXAYzMbS6PQtqZ3Qg"
+			},
+			"name": "Disguise",
+			"reference": "Lite14",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sBknqWlKesTgCNJqe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sPb6TBT6YjoYH8jNG"
+			},
+			"name": "Dreaming",
+			"reference": "B188",
+			"tags": [
+				"Esoteric"
+			],
+			"difficulty": "will/h",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sIbyl246HRsOV0Bz6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s59MUyXFFc-yw0rND"
+			},
+			"name": "Driving",
+			"reference": "Lite17",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "stLuw4DQfp9y0_S4f",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "scAysIf1hcMnIL0Ca"
+			},
+			"name": "Electrician",
+			"reference": "B189",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electrical",
+					"modifier": -3
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "ssj7acq-8_HXnjW48",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "smfanAwQUTT12Ob0t"
+			},
+			"name": "Electronics",
+			"reference": "Lite14",
+			"tags": [
+				"Maintenance",
+				"Repair",
+				"Technical"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "soZCz3CexKemSANvL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "snQe-NcdkQIWC1sh6"
+			},
+			"name": "Engineer",
+			"reference": "Lite14",
+			"tags": [
+				"Design",
+				"Engineer",
+				"Invention"
+			],
+			"difficulty": "iq/h",
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "swWRfrqtqBSJvF-e3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sLwfRYk3g0bERfj96"
+			},
+			"name": "Escape",
+			"reference": "Lite14",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sxVoT1XKosPZsD8RA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sFqj2q9UL0nZ69wD_"
+			},
+			"name": "Etiquette",
+			"reference": "Lite15",
+			"reference_highlight": "Savoir-Faire",
+			"tags": [
+				"Knowledge",
+				"Social"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "seEb8fV4LJNuovdQd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sjH-gsu7T2dxPeVC1"
+			},
+			"name": "Exosuit",
+			"reference": "Lite14",
+			"reference_highlight": "Environment Suit",
+			"tags": [
+				"Technical"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sfc-hBGTSi_DQDr34",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sYQTL6XhNLtC8h144"
+			},
+			"name": "Explosives",
+			"reference": "Lite14",
+			"tags": [
+				"Military",
+				"Technical"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sEAt11AXmUsBKEm4f",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sdo3Xlkd63hs1ic9D"
+			},
+			"name": "Fast-Talk",
+			"reference": "Lite15",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sRaVSjW-I83uP-A6e",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s2kfNXchEM1cAdajj"
+			},
+			"name": "First Aid",
+			"reference": "Lite14",
+			"tags": [
+				"Everyman",
+				"Medical"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sHDrsVlY3jaCPyKm9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s6XwgkRZX1rFQ0Ovf"
+			},
+			"name": "Flail",
+			"reference": "Lite15",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sq8zCUGwm0UYPLd9U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sXVd6L2gsc_3BODz2"
+			},
+			"name": "Flamethrower",
+			"reference": "Lite16",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "slyvDgqb5-wn3yp5T",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sIS-Z26jG9Hwn8qCM"
+			},
+			"name": "Forgery",
+			"reference": "Lite14",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sUCvLThBCuZKHt2KT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sC5ndd8Sc883cfHEB"
+			},
+			"name": "Gambling",
+			"reference": "Lite14",
+			"tags": [
+				"Criminal",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sDYXScNmYBWQvvdfe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "saDvbIwz7L2SJdgBr"
+			},
+			"name": "Hiking",
+			"reference": "Lite14",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "snMUsPhT_tqC7bTS5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "skQYZQlxyF5YmpGsJ"
+			},
+			"name": "Holdout",
+			"reference": "Lite15",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s-MbjwPvcKiiH16FX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "swlKptFoR-UvWeQR8"
+			},
+			"name": "Humanities",
+			"reference": "Lite15",
+			"tags": [
+				"Knowledge",
+				"Scholarly"
+			],
+			"vtt_notes": "Specialties include: History, Literature, Philosophy, Theology...",
+			"specialization": "@Choose@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s85p_M2jdnBYOOHQk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sKEHT6_FH54gXavKr"
+			},
+			"name": "Interrogation",
+			"reference": "Lite15",
+			"tags": [
+				"Military",
+				"Police",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbAyRzmU2DZ7AkbNB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sQ9cHZF7lXpKsZ9UT"
+			},
+			"name": "Intimidation",
+			"reference": "Lite15",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "will/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sjJ8QNbtQBbsXcowY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "se35Ls9einaxhX_UK"
+			},
+			"name": "Jumping",
+			"reference": "Lite15",
+			"tags": [
+				"Athletic"
+			],
+			"difficulty": "dx/e",
+			"points": 1
+		},
+		{
+			"id": "sqRO_y0gYhTNeNcnF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sClFDZHNkE04y9vC4"
+			},
+			"name": "Knife",
+			"reference": "Lite15",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sCqbDEslL42-Bl3Pe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sL5ZdW500CENtNtIE"
+			},
+			"name": "Law",
+			"reference": "Lite15",
+			"tags": [
+				"Business",
+				"Humanities",
+				"Police",
+				"Social Sciences"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s-CO8KI8J7785tVOs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "shsuge46VmfRyELRM"
+			},
+			"name": "Leadership",
+			"reference": "Lite15",
+			"tags": [
+				"Military",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s4xrmX-XP1mH3_MMb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sZFHYz5lgLINxkG9V"
+			},
+			"name": "Lockpicking",
+			"reference": "Lite15",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street",
+				"Technical"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sOuuN9dZqppObLzVb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sMneyquBEjHhQAV_T"
+			},
+			"name": "Long Gun",
+			"reference": "Lite16",
+			"reference_highlight": "Guns",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sYCFBIEH4ROQ7xq2o",
+			"source": {
+				"library": "/gcs-cdp2",
+				"path": "CdP2 Habilidades (alternativas).skl",
+				"id": "sWhIcYIyb6KT7Ssrj"
+			},
+			"name": "Machine Gun",
+			"reference": "Lite16",
+			"reference_highlight": "Gunner",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sy3D-2ei9Wy8U4UOi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s8GWEswDfzBobG7rw"
+			},
+			"name": "Martial Arts",
+			"reference": "Lite15",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/h",
+			"encumbrance_penalty_multiplier": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Karate"
+					},
+					"level": {
+						"compare": "at_least"
+					},
+					"amount": 1,
+					"per_die": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Karate"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					},
+					"amount": 1,
+					"per_die": true
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbjqyK-ptizt0RbbX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s0twBvIcSzMB2UkMa"
+			},
+			"name": "Mathematics",
+			"reference": "Lite15",
+			"tags": [
+				"Knowledge",
+				"Scholarly"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sXgxzfxUxrlotAS3K",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "swCg0VDXhExrB8KVc"
+			},
+			"name": "Mechanic",
+			"reference": "Lite15",
+			"tags": [
+				"Maintenance",
+				"Repair"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sa1H4MKTruzp1WNs7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s0e3upGF2ls0DzvbY"
+			},
+			"name": "Merchant",
+			"reference": "Lite15",
+			"tags": [
+				"Business",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "slokN1T21kZoGYPgG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sWHd0k1QkKtK4u80U"
+			},
+			"name": "Natural Sciences",
+			"reference": "Lite16",
+			"tags": [
+				"Knowledge",
+				"Scholarly"
+			],
+			"vtt_notes": "Specialties include: Astronomy, Biology, Chemistry, Geology, Physics...",
+			"specialization": "@Choose@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s8zDS0UoVyTXr4_r6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "siiuWnWqOXolhLMc5"
+			},
+			"name": "Naturalist",
+			"reference": "Lite16",
+			"tags": [
+				"Animal",
+				"Exploration",
+				"Natural Science",
+				"Outdoor",
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbUmNa6SmkKae_OJf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s_5yHbVBrOTqPjk-X"
+			},
+			"name": "Navigation",
+			"reference": "Lite16",
+			"tags": [
+				"Exploration",
+				"Outdoor",
+				"Technical",
+				"Vehicle"
+			],
+			"specialization": "@Specialty@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s9H2FzAl5pCcrFDNR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sniQ-UmlqtEfMk9Ad"
+			},
+			"name": "Observation",
+			"reference": "Lite16",
+			"tags": [
+				"Criminal",
+				"Military",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sqJ5EbLqWLQQPyrWY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s2dweX0eCSXguGbAX"
+			},
+			"name": "Occultism",
+			"reference": "Lite16",
+			"tags": [
+				"Magical",
+				"Occult"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "slu1ooFbCruV9VInz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sP3wOrpLtDglxeORz"
+			},
+			"name": "Parachuting",
+			"reference": "B212",
+			"tags": [
+				"Athletic",
+				"Military",
+				"Technical"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s0ab2z5efRfG4b731",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sKrvgcByEjeLVjMpe"
+			},
+			"name": "Physician",
+			"reference": "Lite16",
+			"tags": [
+				"Medical"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -7
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sQ6oIK9xaV6J4zJ_E",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sntf6nve2w7wHdAvH"
+			},
+			"name": "Pickpocket",
+			"reference": "Lite16",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "dx/h",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZ41MP8FkpNb07mO3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s2OJ6Kn-VUVjeRnmj"
+			},
+			"name": "Piloting",
+			"reference": "Lite17",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sT_8pbsbtQBJJRBeq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sMneyquBEjHhQAV_T"
+			},
+			"name": "Pistol",
+			"reference": "Lite16",
+			"reference_highlight": "Guns",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sDqlQCeWkOAUd3ihg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sQnoLeKk8CoUZ5VMn"
+			},
+			"name": "Polearm",
+			"reference": "Lite15",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s38NUf-8_9TfBcuzb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sAEidcr1w5iVu4vOX"
+			},
+			"name": "Public Speaking",
+			"reference": "Lite15",
+			"tags": [
+				"Business",
+				"Scholarly",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s_ZqDjBpCdPVj5CmB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "srm1kT5GZ77fKO8te"
+			},
+			"name": "Research",
+			"reference": "Lite16",
+			"tags": [
+				"Scholarly",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 8
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Computer Operation"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Native"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Accented)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Broken)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sZL9oILFU4hhcHP9a",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sLdQqnZ-eGNyNT9ws"
+			},
+			"name": "Riding",
+			"reference": "Lite16",
+			"tags": [
+				"Animal"
+			],
+			"vtt_notes": "Specialties include: Arzarron, Bérog, Camel, Equines...",
+			"specialization": "@Specialty@",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sNPlzVK-3HPh9f77e",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sMneyquBEjHhQAV_T"
+			},
+			"name": "Rocket Launcher",
+			"reference": "Lite16",
+			"reference_highlight": "Guns",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "smTAHo8TJg45bpBWR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s0y8BzYSbWhVpWM-S"
+			},
+			"name": "Scrounging",
+			"reference": "Lite16",
+			"tags": [
+				"Criminal",
+				"Street"
+			],
+			"difficulty": "per/e",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sYuG6BgU8Z3gLE8Dc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s6KbBgIazfeiDFPLy"
+			},
+			"name": "Search",
+			"reference": "Lite16",
+			"tags": [
+				"Police",
+				"Spy"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s_864K13uIImbKDVT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "ssWKxArBDHbuAPI5H"
+			},
+			"name": "Sex Appeal",
+			"reference": "Lite15",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "ht/a",
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "seNHh9_lPKLtmqWjk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sHZABBfIzheIZ9Zw0"
+			},
+			"name": "Shadowing",
+			"reference": "Lite16",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Observation",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Stealth",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "syKtdmwPIrW1ptsnF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sH9__o5Zzd1hDxGDa"
+			},
+			"name": "Shield",
+			"reference": "Lite16",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "so5AFKcCKs0Fb6gGj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sXbIlBYd3LTBrj4KB"
+			},
+			"name": "Smuggling",
+			"reference": "Lite16",
+			"tags": [
+				"Criminal",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sw1tMrpZiVzNBMeNN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s5MyBXfWjfYAzl_wP"
+			},
+			"name": "Social Sciences",
+			"reference": "Lite16",
+			"tags": [
+				"Knowledge",
+				"Scholarly"
+			],
+			"vtt_notes": "Specialties include: Anthropology, Archaeology, Psychology, Sociology...",
+			"specialization": "@Choose@",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sS6R5i4-pv5x4SZWZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s4H-56h40dr2jSD8c"
+			},
+			"name": "Stealth",
+			"reference": "Lite17",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Spy",
+				"Street"
+			],
+			"difficulty": "dx/a",
+			"encumbrance_penalty_multiplier": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZA_FisOfjovSilH2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "shXz8p1IH1SmqLB1F"
+			},
+			"name": "Streetwise",
+			"reference": "Lite15",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s1xPf-M3nbJrIUHR1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sMneyquBEjHhQAV_T"
+			},
+			"name": "Submachine Gun",
+			"reference": "Lite16",
+			"reference_highlight": "Guns",
+			"tags": [
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sHjuw8LW-6t6IvkIu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s2S-jhuw3AcYD4gpS"
+			},
+			"name": "Submarine",
+			"reference": "Lite17",
+			"tags": [
+				"Vehicle"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "diving suit"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "scuba"
+						}
+					}
+				]
+			},
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sFOSuo9mymrybO-fc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s5FuGi754RQOnvWbs"
+			},
+			"name": "Survival",
+			"reference": "Lite17",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sVy4fCQtHKtVzsl-p",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sBp3lfvnQPuo0eLPh"
+			},
+			"name": "Swimming",
+			"reference": "Lite17",
+			"tags": [
+				"Athletic",
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "ht/e",
+			"encumbrance_penalty_multiplier": 2,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sTyTXmhW0PovYU17u",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sA-BOPrqxk47eRK3w"
+			},
+			"name": "Sword",
+			"reference": "Lite15",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "snUPM0-x5-oRx6NCz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sDq749-9ypvMW9YJe"
+			},
+			"name": "Tactics",
+			"reference": "Lite17",
+			"tags": [
+				"Military",
+				"Police"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s6ro_NYmTYLUP7C-l",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sH2YJyhAo5wkEa9Y8"
+			},
+			"name": "Throwing",
+			"reference": "Lite17",
+			"tags": [
+				"Athletic",
+				"Combat",
+				"Ranged Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sQZZ-0tkpgwIns0sk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "sqGXC_0xDogwE6LFh"
+			},
+			"name": "Tracking",
+			"reference": "Lite17",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/a",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sCjjKHQ9ddfW8u8K6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Lite/Lite Skills.skl",
+				"id": "s1vtWhZge-WxAFGu5"
+			},
+			"name": "Traps",
+			"reference": "Lite17",
+			"tags": [
+				"Criminal",
+				"Military",
+				"Street"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s2wveT1qI3lLA2Hke",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sowY4gdlDyw8AZLDq"
+			},
+			"name": "Whip",
+			"reference": "B209",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Weapon"
+			],
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		}
+	]
+}

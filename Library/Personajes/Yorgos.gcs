@@ -1169,38 +1169,6 @@
 			}
 		},
 		{
-			"id": "tRTdgZGT0nObo8Q8q",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Traits.adq",
-				"id": "tNvGbBknp_hk_UPfv"
-			},
-			"name": "Lucky Break",
-			"reference": "Lite9",
-			"local_notes": "One luck use (best of three rolls) per game session. Dependant on player count and game time. The use may be recharged at the GM's discretion.",
-			"tags": [
-				"Advantage"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "starts_with",
-							"qualifier": "Luck"
-						}
-					}
-				]
-			},
-			"base_points": 3,
-			"calc": {
-				"points": 3
-			}
-		},
-		{
 			"id": "tl2HGhWRRwQRE_lXZ",
 			"source": {
 				"library": "/gcs_user_library",
@@ -1240,14 +1208,13 @@
 				"id": "tf5GmnEoBJPZ2myYy"
 			},
 			"name": "Species: Korkon",
-			"local_notes": "Temperamentales, fáciles tanto de alegrar como de enfadar. Chocan sus cabezas con fuerza en enfrentamientos o suavemente para mostrar afecto. Algunos aman la vida nómada tradicional en las dunas, viviendo con el complejo de grupo, mientras que otros viajan por las tierras de Epna descubriendo el mundo. Cuentan con una mayor capacidad física y rara vez se dejan intimidar por sus rivales, prefieren que les dejen en paz antes que tener que recurrir a un cabezazo. Su dieta se basa en vegetales y especias. Las fervientes convicciones que tienen les impulsan a logros dignos de leyenda, o a fracasos dignos de las burlas de un bardo. Su sociedad está segregada en una gran multitud de tribus nómadas que vagan por las dunas próximas, ya que las profundas se consideran territorio sagrado o prohibido por muchas de ellas, y con buen motivo.\n\n_Se caracterizan por su cornamenta, pelaje y duro cráneo, tozudez innata, tolerancia a temperaturas más extremas, y su capacidad de digerir sustancias orgánicas inusuales._\n\n_Rasgos de subespecie suelen incluir una mata de lana que los recubre o pezuñas especializadas para trepar por paredes muy empinadas._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wXa2eoKutPKXOVev9",
+					"id": "wBzf5KTQEDH8Jb8Sx",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1273,7 +1240,7 @@
 					}
 				},
 				{
-					"id": "wdfLmWka-MCsFpTh8",
+					"id": "wh3lZD1iL__JBbkjb",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1305,7 +1272,7 @@
 					}
 				},
 				{
-					"id": "wfn32TmeQ8ZOpCmEf",
+					"id": "wwPL2wkqejaoOqriA",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1329,7 +1296,7 @@
 					}
 				},
 				{
-					"id": "wM24WuG0F-6nIcSDW",
+					"id": "w0x-RvNSqMHMwPCdv",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1363,7 +1330,7 @@
 					}
 				},
 				{
-					"id": "w_B0E-CMkruRrtqn4",
+					"id": "wVP5Qwj2HsGQGzJrz",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -2156,7 +2123,7 @@
 		}
 	],
 	"created_date": "2025-12-27T04:24:10+01:00",
-	"modified_date": "2025-12-29T14:02:36+01:00",
+	"modified_date": "2025-12-30T14:15:22+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

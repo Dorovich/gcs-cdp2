@@ -146,6 +146,25 @@
 			}
 		},
 		{
+			"id": "tWFpspsPH5geT1Aku",
+			"name": "Skill Familiarity (@Skill@: @Specialty@)",
+			"modifiers": [
+				{
+					"id": "mAsajZWYQ6ifx7_WF",
+					"name": "First",
+					"cost_adj": "x0",
+					"disabled": true
+				}
+			],
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
 			"id": "tWm9O63n5b9-C3a8T",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -283,6 +302,176 @@
 			],
 			"calc": {
 				"points": 5
+			}
+		},
+		{
+			"id": "tC__7G1HZ0t1UxD8H",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tscmSYJJXncLjOvVM"
+			},
+			"name": "Masterful Strikes (@Strike@)",
+			"local_notes": "+1 thr damage per die for Unarmed Strikes",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"points_per_level": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "@Strike@"
+					},
+					"amount": 1,
+					"leveled": true,
+					"per_die": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
+			"id": "thL66bD3ZQk_yiGWp",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tVk4-Ar_N6Qy4BbD4"
+			},
+			"name": "Fist Load",
+			"local_notes": "Use blackjacks and saps and other weapons with Striking skill",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "trhQo843Dj28qkfm1",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tdBQ3Gqc0nNMX258q"
+			},
+			"name": "Kick Mastery",
+			"local_notes": "No -2 to kick. No DX check to fall down on a missed kick.",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "weapons_with_name",
+					"name": {
+						"compare": "contains",
+						"qualifier": "Natural Attacks"
+					},
+					"specialization": {
+						"compare": "contains",
+						"qualifier": "Kick"
+					},
+					"amount": 2
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tkaUOweSWhu7I1y5z",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tob27-9jcS__rJeWF"
+			},
+			"name": "Knife Striking",
+			"local_notes": "Use knives with Striking skill",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tqOhS7r53IU4rCcKk",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tQWuWWBrKN9oFj1bp"
+			},
+			"name": "No Unarmed Swing Parry Penalty",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "tJAGpdeLhb_BKbPGg",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tQWuWWBrKN9oFj1bp"
+			},
+			"name": "Parry Twice per Turn",
+			"local_notes": "Once with each arm",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "t5mmeyWw-ttj_TwJq",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tQWuWWBrKN9oFj1bp"
+			},
+			"name": "Agile Retreat",
+			"local_notes": "+3 to Parry when retreating",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"base_points": 1,
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Parry when retreating in combat",
+					"amount": 3
+				}
+			],
+			"calc": {
+				"points": 1
 			}
 		},
 		{
@@ -5897,33 +6086,6 @@
 			"modifiers": [
 				{
 					"id": "m-qNNMMg1o0dbP3um",
-					"name": "Native",
-					"cost_adj": "-1",
-					"disabled": true
-				}
-			],
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
-			"id": "tUt8qYRGWwkN4kSuR",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "toXBQ8q4Nek5lsLPF"
-			},
-			"name": "Cultural Familiarity (Nu'karn)",
-			"reference": "B23",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mfI_dFEBseo71aB4e",
 					"name": "Native",
 					"cost_adj": "-1",
 					"disabled": true
@@ -29642,14 +29804,13 @@
 				"id": "twtaWt1WdqZLmBDXg"
 			},
 			"name": "Species: Koppemak",
-			"local_notes": "Autómatas con motores lógicos tan avanzados que sólo los misteriosos Artífices conocen su funcionamiento, tienen la capacidad de ver el mundo con intuición matemática y estructural, aunque no es raro verles hacer un pobre uso de sus habilidades. Aman la tecnología y la usan para todo, desde utensilios de cocina hasta aumentos cibernéticos de sus propios cuerpos, siendo muy abiertos a compartirla. Viven en ciudades muy desarrolladas y muy reglamentadas, con la magnitud de la sapiencia y complejidad de un individuo como indicador de su estatus. Necesitan combustible para funcionar, y es algo complicado de conseguir, por lo que comercian con otros pueblos para asegurar los materiales para su procesado y refinado.\n\n_Se caracterizan por su mente reprogramable, chasis resistente pero con poca flotabilidad, entrañas susceptibles a cortocircuitos, capacidad de interceptar señales de radio, inmunidad al cansancio, y sus ruidosos mecanismos y sistemas de enfriamiento._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wxjNz0p5XjCo8Nx3J",
+					"id": "wZBVSSDzKYNkruwGL",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29682,7 +29843,7 @@
 					}
 				},
 				{
-					"id": "wwpzHpgpMZJ9IN4It",
+					"id": "w6SxUfAHH2e5MFJF5",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29775,14 +29936,13 @@
 				"id": "tf5GmnEoBJPZ2myYy"
 			},
 			"name": "Species: Korkon",
-			"local_notes": "Temperamentales, fáciles tanto de alegrar como de enfadar. Chocan sus cabezas con fuerza en enfrentamientos o suavemente para mostrar afecto. Algunos aman la vida nómada tradicional en las dunas, viviendo con el complejo de grupo, mientras que otros viajan por las tierras de Epna descubriendo el mundo. Cuentan con una mayor capacidad física y rara vez se dejan intimidar por sus rivales, prefieren que les dejen en paz antes que tener que recurrir a un cabezazo. Su dieta se basa en vegetales y especias. Las fervientes convicciones que tienen les impulsan a logros dignos de leyenda, o a fracasos dignos de las burlas de un bardo. Su sociedad está segregada en una gran multitud de tribus nómadas que vagan por las dunas próximas, ya que las profundas se consideran territorio sagrado o prohibido por muchas de ellas, y con buen motivo.\n\n_Se caracterizan por su cornamenta, pelaje y duro cráneo, tozudez innata, tolerancia a temperaturas más extremas, y su capacidad de digerir sustancias orgánicas inusuales._\n\n_Rasgos de subespecie suelen incluir una mata de lana que los recubre o pezuñas especializadas para trepar por paredes muy empinadas._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wOTxZSDFnGAcBAYcM",
+					"id": "w5a5JSOfvFEwqmHSV",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29806,7 +29966,7 @@
 					}
 				},
 				{
-					"id": "waEIXRL8jl2vlZbQ4",
+					"id": "wbLmPvKjSipGl25JF",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29837,7 +29997,7 @@
 					}
 				},
 				{
-					"id": "w8Sp09o-uPsIVVvni",
+					"id": "wQA0d9AcxSyMk0uC5",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29860,7 +30020,7 @@
 					}
 				},
 				{
-					"id": "w91xzF9r4q8lR4U5K",
+					"id": "wgSrj3qB2bIhARwaY",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29893,7 +30053,7 @@
 					}
 				},
 				{
-					"id": "wXTk_kJSOhlF6QQAc",
+					"id": "wfbukazoTo2ooLySh",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29967,14 +30127,13 @@
 				"id": "tPYRX6sQObx-V41k1"
 			},
 			"name": "Species: Kwazaar",
-			"local_notes": "Moradores de ríos, grutas submarinas y regiones húmedas, viven en ciudades esculpidas en la roca en las profundidades de Epna, las metrópolis cóncavas. Sus dietas son carnívoras y sus pieles escamosas, y cuentan con una resistencia formidable. Son grandes pescadores, prospectores y científicos, y hacen alarde de contar con las mejores instituciones y universidades en todo Epna. Han logrado grandes avances tecnológicos que, a diferencia de otras especies, son más reacios a compartir con el resto del mundo. Sus constantes insultos a la soberanía te’karn-koppemak en el desierto les ha valido una trifulca en el pasado reciente, la Guerra Seca.\n\n_Se caracterizan por su adaptabilidad al agua, sangre fría, colas musculosas, dieta carnívora y lenta digestión, su atavismo por estrés y xenofobia._\n\n_Rasgos de subespecie pueden incluir respiración cutánea, mordidas venenosas, escamas endurecidas, autotomía de la cola o capacidad regenerativa aumentada._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wceudL3DEfYmhfnD1",
+					"id": "w4ylTfB1KclTKjOS2",
 					"sv": 1,
 					"damage": {
 						"type": "cut",
@@ -29997,7 +30156,7 @@
 					}
 				},
 				{
-					"id": "weCx-OF4SRhAcvgEP",
+					"id": "w5uGcJ7NVffFYzQQZ",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30022,7 +30181,7 @@
 					}
 				},
 				{
-					"id": "wmWbc1azX2R7p_wk8",
+					"id": "wroK4pCTYpXbGWFpK",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30055,7 +30214,7 @@
 					}
 				},
 				{
-					"id": "wlt1lN9GPFNoTcsUV",
+					"id": "w2E68ejza4q9I07e5",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30121,14 +30280,13 @@
 				"id": "tN3VvTynAa20LiQhn"
 			},
 			"name": "Species: Nu'karn",
-			"local_notes": "Los nu'karn y su presencia representa todo lo disonante del Pentácoro. Su existencia misma es digna de debate, y de fuertes opiniones contradictorias. Son incógnitas parlantes, errores en movimiento, coros en el vacío, ruptura en el orden y la soga de los cuerdos. No es de extrañar que sean repudiados en algunos lugares, y puestos en un pedestal en otros tantos.\n\n_A simple vista es difícil reconocer un nu'karn, ya que por naturaleza o por voluntad propia poseen la forma de cualquier especie (excepto koppemak). Por esto, puede resultar difícil reconocerlos a no ser que se sea suficientemente perspicaz \n–o poner a uno en una situación suficientemente comprometida– como para observar sus rasgos sobrenaturales. Fisonomías inusualmente pálidas u oscuras, falta de pulso, órganos internos grotescos, tonalidades sanguíneas incorrectas: cualquiera de ellas es prueba de estar frente a un nu'karn._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 5,
 			"weapons": [
 				{
-					"id": "w_viaXcg8UYL8Svrp",
+					"id": "wrWMWoUFuUUBCpsQc",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30151,7 +30309,7 @@
 					}
 				},
 				{
-					"id": "wp9FmTmvsIqD39Xjl",
+					"id": "wkSQ09kIKplncALIT",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30184,7 +30342,7 @@
 					}
 				},
 				{
-					"id": "w64TxyL1161FFV5yT",
+					"id": "wcT_g9ACrEQEOvJoE",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30228,14 +30386,13 @@
 				"id": "t-BhsRlY4Vn-02OVl"
 			},
 			"name": "Species: O'koptera",
-			"local_notes": "Impredecibles, siguen las leyes naturales y rara vez se integran en una sociedad con reglas diferentes y confusas. Forman familias en jerarquías por castas, donde se valora el honor de las casas por encima de todo, además de la rivalidad entre casas. Tienen una mala fama de caníbales, y cierta es, ya que no es tan raro ver o’koptera consumiendo a otros de su especie por motivos varios en los lugares menos civilizados. Se enorgullecen de sus logros y son muy territoriales, recurriendo a toda clase de trucos para deshacerse de sus invasores. Aunque muchos los consideran salvajes, amorales, o simples mercenarios, su mundo es de lo más variado y complejo. Técnicas comúnmente rastreras como la hipnosis, chantaje, amenaza, control mental u otros engaños son de lo más cotidianas para ellos.\n\n_Se caracterizan por sus exoesqueletos quitinosos, agudísimo sentido del olfato, cuatro ligeros brazos, la capacidad de comunicarse por señales químicas en el aire, vulnerabilidad a las quemaduras, y una reducida esperanza de vida._\n\n_Rasgos de subespecie suelen incluir alas membranosas o escamadas, colmillos o aguijones para inyectar agentes tóxicos o paralizantes, o filos cortantes o dentados en las extremidades._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wZPuVQ-GOruxXzm2-",
+					"id": "wvW0RE_V3wdbCwECO",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30258,7 +30415,7 @@
 					}
 				},
 				{
-					"id": "wMpx3ebH6EdpwrRQI",
+					"id": "w72jnvFQA44XW4uZR",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30291,7 +30448,7 @@
 					}
 				},
 				{
-					"id": "w1y4t8YVSYoqtm1Pu",
+					"id": "w7ZRqM29ylbKfIa28",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30384,13 +30541,12 @@
 				"id": "ti38WK9zFITg7XbtV"
 			},
 			"name": "Species: Te'karn",
-			"local_notes": "El ser humano es de las especies más antiguas del Pentácoro, y su origen se ha perdido en los anales de la historia. Su territorio principal es el fértil Valle Eterno que defienden con reliquias militares del pasado. Suelen ser tenaces y ávidos aprendices, algo estúpidos a veces, aunque su sociedad es la mejor establecida de todas, con reglas y legado que abarcan siglos. Muchos de ellos creen que el resto del mundo antaño fue suyo y les pertenece, y aunque no se ha logrado demostrar, la mayoría tiene prejuicios por el resto de especies que lo habitan. Sin embargo, su orgullo mercurial no les ciñe el camino a la prosperidad, pues ciudades te’karn de los valles como Niwel, Boxton o Camdel son los mayores centros culturales, científicos e industriales de los territorios, al menos en su superfície.",
 			"tags": [
 				"Species"
 			],
 			"weapons": [
 				{
-					"id": "wRk5Kaxw6kKJaCevp",
+					"id": "wZiWQZjoyIGQaTQz4",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30413,7 +30569,7 @@
 					}
 				},
 				{
-					"id": "wK_5OH6636NNn8UWg",
+					"id": "wE8A7OWxNKFyyPPW-",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30446,7 +30602,7 @@
 					}
 				},
 				{
-					"id": "wZKzjjhoYjoMcFJkD",
+					"id": "wrGe_3WHn6xfZt14I",
 					"sv": 1,
 					"damage": {
 						"type": "cr",

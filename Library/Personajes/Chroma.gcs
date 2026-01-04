@@ -1443,14 +1443,13 @@
 				"id": "tPYRX6sQObx-V41k1"
 			},
 			"name": "Species: Kwazaar",
-			"local_notes": "Moradores de ríos, grutas submarinas y regiones húmedas, viven en ciudades esculpidas en la roca en las profundidades de Epna, las metrópolis cóncavas. Sus dietas son carnívoras y sus pieles escamosas, y cuentan con una resistencia formidable. Son grandes pescadores, prospectores y científicos, y hacen alarde de contar con las mejores instituciones y universidades en todo Epna. Han logrado grandes avances tecnológicos que, a diferencia de otras especies, son más reacios a compartir con el resto del mundo. Sus constantes insultos a la soberanía te’karn-koppemak en el desierto les ha valido una trifulca en el pasado reciente, la Guerra Seca.\n\n_Se caracterizan por su adaptabilidad al agua, sangre fría, colas musculosas, dieta carnívora y lenta digestión, su atavismo por estrés y xenofobia._\n\n_Rasgos de subespecie pueden incluir respiración cutánea, mordidas venenosas, escamas endurecidas, autotomía de la cola o capacidad regenerativa aumentada._",
 			"tags": [
 				"Species"
 			],
 			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wCb1SybraPbEZU9s-",
+					"id": "w6ZafZH_Bo4y4pioi",
 					"sv": 1,
 					"damage": {
 						"type": "cut",
@@ -1474,7 +1473,7 @@
 					}
 				},
 				{
-					"id": "wf8RpoDLQGRDcPf8v",
+					"id": "wM1Qc0DV9w1MXHh5f",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1500,7 +1499,7 @@
 					}
 				},
 				{
-					"id": "wmwG9T9D1Df1WRW04",
+					"id": "wwszesScWd65Zfi25",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1534,7 +1533,7 @@
 					}
 				},
 				{
-					"id": "wPBtVG58xR7xwPI72",
+					"id": "wdwjV4qHMP6JXKI37",
 					"sv": 1,
 					"damage": {
 						"type": "cr",

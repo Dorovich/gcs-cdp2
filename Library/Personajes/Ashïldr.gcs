@@ -736,6 +736,17 @@
 			}
 		},
 		{
+			"id": "toytCuCxnfwpjNu6r",
+			"name": "Extra Cash (Faraheim)",
+			"points_per_level": 1,
+			"can_level": true,
+			"levels": 23,
+			"calc": {
+				"points": 23,
+				"current_level": 23
+			}
+		},
+		{
 			"id": "tBYAACxRk9TMwwMOb",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -949,60 +960,6 @@
 			}
 		},
 		{
-			"id": "tmJ1JJ9OmILExcDMD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Traits.adq",
-				"id": "tNvGbBknp_hk_UPfv"
-			},
-			"name": "Lucky Break",
-			"reference": "Lite9",
-			"local_notes": "One luck use (best of three rolls) per game session. Dependant on player count and game time. The use may be recharged at the GM's discretion.",
-			"tags": [
-				"Advantage"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": false,
-						"name": {
-							"compare": "starts_with",
-							"qualifier": "Luck"
-						}
-					}
-				]
-			},
-			"base_points": 3,
-			"calc": {
-				"points": 3
-			}
-		},
-		{
-			"id": "tg1d04zLG8EFAA-1c",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "thKwCUUe961nSwzVi"
-			},
-			"name": "Signature Gear",
-			"reference": "B85",
-			"local_notes": "The Faraheim",
-			"tags": [
-				"Advantage",
-				"Social"
-			],
-			"points_per_level": 1,
-			"can_level": true,
-			"levels": 10,
-			"calc": {
-				"points": 10,
-				"current_level": 10
-			}
-		},
-		{
 			"id": "tZe31Oofqq-ir6PnD",
 			"source": {
 				"library": "/gcs-cdp2",
@@ -1010,13 +967,12 @@
 				"id": "ti38WK9zFITg7XbtV"
 			},
 			"name": "Species: Te'karn",
-			"local_notes": "El ser humano es de las especies más antiguas del Pentácoro, y su origen se ha perdido en los anales de la historia. Su territorio principal es el fértil Valle Eterno que defienden con reliquias militares del pasado. Suelen ser tenaces y ávidos aprendices, algo estúpidos a veces, aunque su sociedad es la mejor establecida de todas, con reglas y legado que abarcan siglos. Muchos de ellos creen que el resto del mundo antaño fue suyo y les pertenece, y aunque no se ha logrado demostrar, la mayoría tiene prejuicios por el resto de especies que lo habitan. Sin embargo, su orgullo mercurial no les ciñe el camino a la prosperidad, pues ciudades te’karn de los valles como Niwel, Boxton o Camdel son los mayores centros culturales, científicos e industriales de los territorios, al menos en su superfície.",
 			"tags": [
 				"Species"
 			],
 			"weapons": [
 				{
-					"id": "wBcDL-mROtojo7fyt",
+					"id": "wXbH7BmQylx1k4vxr",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1040,7 +996,7 @@
 					}
 				},
 				{
-					"id": "wvC8JE1QUH-EvZYub",
+					"id": "wQU7cFROiSKcEvv6Y",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1074,7 +1030,7 @@
 					}
 				},
 				{
-					"id": "wsADBfJODt5FsRDwm",
+					"id": "wxukyYfyEld8DVwgV",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1115,14 +1071,14 @@
 	],
 	"skills": [
 		{
-			"id": "s_rWbLa41nY42KwL3",
+			"id": "so2QD0g6_Bf8PQ0df",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s7JoMxcn1NBzEO6g9"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shtDdl5thrvKSnJHf"
 			},
 			"name": "Brawling",
-			"reference": "Lite14",
+			"reference": "B182,MA55",
 			"tags": [
 				"Combat",
 				"Melee Combat",
@@ -1152,14 +1108,15 @@
 			}
 		},
 		{
-			"id": "snurb2OyKpTdnH5eH",
+			"id": "s9iemTozuj5__iiFC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "sWq-R405fYphWhtjW"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
 			},
-			"name": "Crewman",
-			"reference": "Lite14",
+			"name": "Airman",
+			"reference": "B185",
+			"reference_highlight": "Airshipman",
 			"tags": [
 				"Vehicle"
 			],
@@ -1185,36 +1142,44 @@
 			}
 		},
 		{
-			"id": "sXvE3NZUidr9403Wh",
+			"id": "sPyQlPIM79Ln4B-NN",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s59MUyXFFc-yw0rND"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sH0t4LjU0g6wd4gNi"
 			},
-			"name": "Driving",
-			"reference": "Lite17",
+			"name": "Piloting",
+			"reference": "B214",
 			"tags": [
 				"Vehicle"
 			],
+			"specialization": "Floater",
 			"difficulty": "dx/a",
 			"defaults": [
 				{
-					"type": "dx",
-					"modifier": -5
+					"type": "iq",
+					"modifier": -6
 				},
 				{
-					"type": "iq",
+					"type": "skill",
+					"name": "Piloting",
+					"specialization": "Vertol",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Piloting",
 					"modifier": -5
 				}
 			],
 			"tech_level": "6",
 			"points": 4,
 			"defaulted_from": {
-				"type": "dx",
-				"modifier": -5,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"type": "iq",
+				"modifier": -6,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
 			},
 			"calc": {
 				"level": 12,
@@ -1222,14 +1187,14 @@
 			}
 		},
 		{
-			"id": "shEsySfJdnnSw-1h-",
+			"id": "sTRdzP5UnHoViHY97",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s2kfNXchEM1cAdajj"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s9mV--3lpIfXO7N6Z"
 			},
 			"name": "First Aid",
-			"reference": "Lite14",
+			"reference": "B195",
 			"tags": [
 				"Everyman",
 				"Medical"
@@ -1238,6 +1203,19 @@
 			"defaults": [
 				{
 					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine"
+				},
+				{
+					"type": "skill",
+					"name": "Physician"
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
 					"modifier": -4
 				}
 			],
@@ -1256,14 +1234,14 @@
 			}
 		},
 		{
-			"id": "scz2YMT5EVlO0KcNL",
+			"id": "s2LNhfP8zj8iJbq0B",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "saDvbIwz7L2SJdgBr"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s9b5e-6c-ljOeUtt5"
 			},
 			"name": "Hiking",
-			"reference": "Lite14",
+			"reference": "B200",
 			"tags": [
 				"Athletic",
 				"Exploration",
@@ -1290,23 +1268,40 @@
 			}
 		},
 		{
-			"id": "sr9Xxl-WfX4A_lWAC",
+			"id": "sHktgAzLveiUyPsnd",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "swCg0VDXhExrB8KVc"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sm4VKEsooHU6KLuFP"
 			},
 			"name": "Mechanic",
-			"reference": "Lite15",
+			"reference": "B207",
 			"tags": [
 				"Maintenance",
 				"Repair"
 			],
+			"specialization": "Floater",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
 					"type": "iq",
 					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Contragravity",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Machinist",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mechanic",
+					"modifier": -4
 				}
 			],
 			"tech_level": "6",
@@ -1324,29 +1319,55 @@
 			}
 		},
 		{
-			"id": "sVrs992Ln3OLXNMy5",
+			"id": "sXLkT1S-XER6jRBjN",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s_5yHbVBrOTqPjk-X"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "so2Ldnofc7ZvAhwh_"
 			},
 			"name": "Navigation",
-			"reference": "Lite16",
+			"reference": "B211",
 			"tags": [
 				"Exploration",
 				"Outdoor",
 				"Technical",
 				"Vehicle"
 			],
-			"replacements": {
-				"Specialty": "Land"
-			},
-			"specialization": "@Specialty@",
+			"specialization": "Land",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
 					"type": "iq",
 					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Cartography",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Surveying",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Air",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Sea",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Underground",
+					"modifier": -2
 				}
 			],
 			"tech_level": "6",
@@ -1364,14 +1385,14 @@
 			}
 		},
 		{
-			"id": "s9jF7OjxTA2BeFVEC",
+			"id": "sVhfBH16syFbYt8vg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "s4H-56h40dr2jSD8c"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "svEm7OyeCu_9wJ8Kk"
 			},
 			"name": "Stealth",
-			"reference": "Lite17",
+			"reference": "B222",
 			"tags": [
 				"Criminal",
 				"Police",
@@ -1382,13 +1403,17 @@
 			"encumbrance_penalty_multiplier": 1,
 			"defaults": [
 				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
 					"type": "dx",
 					"modifier": -5
 				}
 			],
 			"points": 2,
 			"defaulted_from": {
-				"type": "dx",
+				"type": "iq",
 				"modifier": -5,
 				"level": 6,
 				"adjusted_level": 6,
@@ -1400,32 +1425,50 @@
 			}
 		},
 		{
-			"id": "sp8UqcAapWHRqvoSX",
+			"id": "suymnEyKhFc_x5EgV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
-				"path": "Lite/Lite Skills.skl",
-				"id": "sDq749-9ypvMW9YJe"
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swXuff1DBhSQbTqy1"
 			},
-			"name": "Tactics",
-			"reference": "Lite17",
+			"name": "Electronics Operation",
+			"reference": "B189",
 			"tags": [
-				"Military",
-				"Police"
+				"Technical"
 			],
-			"difficulty": "iq/h",
+			"specialization": "Communications",
+			"difficulty": "iq/a",
 			"defaults": [
 				{
 					"type": "iq",
-					"modifier": -6
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Operation",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Repair",
+					"specialization": "Communications",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Electronics",
+					"modifier": -5
 				}
 			],
-			"points": 4,
+			"tech_level": "6",
+			"points": 2,
 			"defaulted_from": {
 				"type": "iq",
-				"modifier": -6,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
 			},
 			"calc": {
 				"level": 11,
@@ -1646,7 +1689,7 @@
 		}
 	],
 	"created_date": "2025-12-28T17:51:15+01:00",
-	"modified_date": "2025-12-29T14:02:22+01:00",
+	"modified_date": "2026-01-04T04:15:53+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
