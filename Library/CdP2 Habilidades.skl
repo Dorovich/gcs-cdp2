@@ -11774,6 +11774,11 @@
 			"difficulty": "iq/a",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Writing",
+					"modifier": -2
+				},
+				{
 					"type": "iq",
 					"modifier": -5
 				}

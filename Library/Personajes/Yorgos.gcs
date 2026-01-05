@@ -731,27 +731,19 @@
 			}
 		},
 		{
-			"id": "tsWrhZPOfF2InbgV4",
+			"id": "tOAEdiziiSyHFSeTC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (Korkon)",
+			"name": "Cultural Familiarity (Korkon, Native)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mjuGO0WD_x_7PHC95",
-					"name": "Native",
-					"cost_adj": "-1"
-				}
-			],
-			"base_points": 1,
 			"calc": {
 				"points": 0
 			}
@@ -1169,6 +1161,44 @@
 			}
 		},
 		{
+			"id": "tg8C5kBrlF9FpyYMy",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tscmSYJJXncLjOvVM"
+			},
+			"name": "Masterful Strikes (@Strike@)",
+			"local_notes": "+1 thr damage per die for Unarmed Strikes",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"replacements": {
+				"Strike": "Punch"
+			},
+			"points_per_level": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "@Strike@"
+					},
+					"amount": 1,
+					"leveled": true,
+					"per_die": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
 			"id": "tl2HGhWRRwQRE_lXZ",
 			"source": {
 				"library": "/gcs_user_library",
@@ -1359,7 +1389,7 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d-1 cr",
+						"damage": "1d cr",
 						"parry": "9"
 					}
 				}
@@ -1401,22 +1431,36 @@
 	],
 	"skills": [
 		{
-			"id": "sOSK-OwXXxar65UgQ",
+			"id": "sD85Lmv96e00lqzq8",
 			"source": {
-				"library": "/gcs_user_library",
-				"path": "PHX Framework/PHX Skills.skl",
-				"id": "svNOISP2hf1AAaBQ1"
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shCDVQzZKFQTj_qbS"
 			},
-			"name": "Striking",
+			"name": "Airman",
+			"reference": "B185",
 			"tags": [
-				"Combat",
-				"Melee Combat"
+				"Vehicle"
 			],
-			"difficulty": "dx/e",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"tech_level": "6",
 			"points": 4,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -4,
+				"level": 5,
+				"adjusted_level": 5,
+				"points": -5
+			},
 			"calc": {
-				"level": 13,
-				"rsl": "DX+2"
+				"level": 11,
+				"rsl": "IQ+2"
 			}
 		},
 		{
@@ -1454,39 +1498,6 @@
 			"calc": {
 				"level": 10,
 				"rsl": "DX+0"
-			}
-		},
-		{
-			"id": "sD85Lmv96e00lqzq8",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shCDVQzZKFQTj_qbS"
-			},
-			"name": "Airman",
-			"reference": "B185",
-			"tags": [
-				"Vehicle"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				}
-			],
-			"tech_level": "6",
-			"points": 2,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -4,
-				"level": 5,
-				"adjusted_level": 5,
-				"points": -5
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ+1"
 			}
 		},
 		{
@@ -1554,6 +1565,25 @@
 			"calc": {
 				"level": 11,
 				"rsl": "DX+0"
+			}
+		},
+		{
+			"id": "sbc96jA-cBarEdaTT",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Skills.skl",
+				"id": "sJkjtIj7dtHcAv69N"
+			},
+			"name": "Grappling",
+			"tags": [
+				"Combat",
+				"Melee Combat"
+			],
+			"difficulty": "dx/e",
+			"points": 2,
+			"calc": {
+				"level": 12,
+				"rsl": "DX+1"
 			}
 		},
 		{
@@ -1653,7 +1683,7 @@
 					"modifier": -4
 				}
 			],
-			"points": 4,
+			"points": 2,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -4,
@@ -1661,6 +1691,25 @@
 				"adjusted_level": 7,
 				"points": -7
 			},
+			"calc": {
+				"level": 12,
+				"rsl": "DX+1"
+			}
+		},
+		{
+			"id": "sOSK-OwXXxar65UgQ",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Skills.skl",
+				"id": "svNOISP2hf1AAaBQ1"
+			},
+			"name": "Striking",
+			"tags": [
+				"Combat",
+				"Melee Combat"
+			],
+			"difficulty": "dx/e",
+			"points": 4,
 			"calc": {
 				"level": 13,
 				"rsl": "DX+2"
@@ -2153,7 +2202,7 @@
 		}
 	],
 	"created_date": "2025-12-27T04:24:10+01:00",
-	"modified_date": "2026-01-04T22:35:40+01:00",
+	"modified_date": "2026-01-05T07:45:33+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

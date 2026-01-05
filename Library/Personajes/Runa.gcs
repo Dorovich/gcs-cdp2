@@ -977,27 +977,19 @@
 			}
 		},
 		{
-			"id": "tQv3_gkCcpbkMEE0T",
+			"id": "tH88uhc_b4mOU2RHh",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (Korkon)",
+			"name": "Cultural Familiarity (Korkon, Native)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "m8L7sQg4YJ0Zr23YO",
-					"name": "Native",
-					"cost_adj": "-1"
-				}
-			],
-			"base_points": 1,
 			"calc": {
 				"points": 0
 			}
@@ -2853,7 +2845,7 @@
 		}
 	],
 	"created_date": "2025-12-29T03:00:37+01:00",
-	"modified_date": "2026-01-04T22:43:58+01:00",
+	"modified_date": "2026-01-05T07:44:03+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

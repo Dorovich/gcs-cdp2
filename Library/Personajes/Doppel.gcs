@@ -624,27 +624,19 @@
 			}
 		},
 		{
-			"id": "tz6FYkucRSG9bcQmh",
+			"id": "togJCapS4YCdVbxMt",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (Te'karn)",
+			"name": "Cultural Familiarity (Te'karn, Native)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "m8D-N8g2F3CjPAVo6",
-					"name": "Native",
-					"cost_adj": "-1"
-				}
-			],
-			"base_points": 1,
 			"calc": {
 				"points": 0
 			}
@@ -1633,7 +1625,7 @@
 		}
 	],
 	"created_date": "2025-12-27T18:55:56+01:00",
-	"modified_date": "2026-01-04T22:44:59+01:00",
+	"modified_date": "2026-01-05T07:43:56+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

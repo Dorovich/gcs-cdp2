@@ -572,6 +572,289 @@
 	],
 	"traits": [
 		{
+			"id": "tjeUBxrWY3UtXLQNR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t1Ob8iazARmhXvVrZ"
+			},
+			"name": "Ally (@Who@)",
+			"reference": "B36,P41",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"replacements": {
+				"Who": "Owl"
+			},
+			"modifiers": [
+				{
+					"id": "mcjFsYUxADQeioS1F",
+					"name": "Favor",
+					"reference": "B55",
+					"cost_adj": "x0.2",
+					"disabled": true
+				},
+				{
+					"id": "M7SkOMUvz5_Jn6cHj",
+					"name": "Frequency of Appearance",
+					"reference": "B37",
+					"children": [
+						{
+							"id": "mmKTebxJjrFwyfGt6",
+							"name": "Appears quite rarely (6-)",
+							"reference": "B36",
+							"cost_adj": "x0.5",
+							"disabled": true
+						},
+						{
+							"id": "mbwuG8IMJe9cOHxHV",
+							"name": "Appears fairly often (9-)",
+							"reference": "B36",
+							"cost_adj": "x1"
+						},
+						{
+							"id": "mRyZBq4U5vxAk6HZK",
+							"name": "Appears quite often (12-)",
+							"reference": "B36",
+							"cost_adj": "x2",
+							"disabled": true
+						},
+						{
+							"id": "mEKLeC3EFNrsL3nui",
+							"name": "Appears almost all the time (15-)",
+							"reference": "B36",
+							"cost_adj": "x3",
+							"disabled": true
+						},
+						{
+							"id": "msvHrEfIcoI2uI4RH",
+							"name": "Appears constantly",
+							"reference": "B36",
+							"cost_adj": "x4",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "Mu8ZeO16EwJZuWaPC",
+					"name": "Ally Group",
+					"reference": "B37",
+					"children": [
+						{
+							"id": "mMhffE0GZ_7LrA3sA",
+							"name": "Group of 6-10",
+							"reference": "B37",
+							"cost_adj": "x6",
+							"disabled": true
+						},
+						{
+							"id": "mMLgFmn2zNX0Xxup5",
+							"name": "Group of 11-20",
+							"reference": "B37",
+							"cost_adj": "x8",
+							"disabled": true
+						},
+						{
+							"id": "mMeCJSg4opL7lu-cF",
+							"name": "Group of 21-50",
+							"reference": "B37",
+							"cost_adj": "x10",
+							"disabled": true
+						},
+						{
+							"id": "mjBNasn_eZOkiGzMI",
+							"name": "Group of 51-100",
+							"reference": "B37",
+							"cost_adj": "x12",
+							"disabled": true
+						},
+						{
+							"id": "mpANo49xLmVxWJPnR",
+							"name": "Group of 101-1000",
+							"reference": "B37",
+							"cost_adj": "x18",
+							"disabled": true
+						},
+						{
+							"id": "mXiq_toponZYJFlJP",
+							"name": "Group of 1001-10000",
+							"reference": "B37",
+							"cost_adj": "x24",
+							"disabled": true
+						},
+						{
+							"id": "mL1dMrg0VX2egiip2",
+							"name": "Group of 10001-100000",
+							"reference": "B37",
+							"cost_adj": "x30",
+							"disabled": true
+						},
+						{
+							"id": "mdLhNKwZAC51_nKUp",
+							"name": "Group of 100001-1000000",
+							"reference": "B37",
+							"cost_adj": "x36",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "mzCw52WIg3SWaYsW1",
+					"name": "Minion",
+					"reference": "B38",
+					"cost_adj": "50%",
+					"disabled": true
+				},
+				{
+					"id": "m5oOcZcpoDvklTAk8",
+					"name": "Minion",
+					"reference": "B38",
+					"local_notes": "IQ 0 or Slave Mentality",
+					"disabled": true
+				},
+				{
+					"id": "MMjM1GJJzGa7RsrFd",
+					"name": "Point Total",
+					"reference": "B37",
+					"children": [
+						{
+							"id": "mdyO2rn6WOq0FoXub",
+							"name": "25% of your starting points",
+							"reference": "B37",
+							"cost_adj": "1"
+						},
+						{
+							"id": "mWySCbCD-h3HakpdL",
+							"name": "50% of your starting points",
+							"reference": "B37",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "ma0Roy49RkuYSxfOo",
+							"name": "75% of your starting points",
+							"reference": "B37",
+							"cost_adj": "3",
+							"disabled": true
+						},
+						{
+							"id": "mTP-TZ20ZuMOFpA_r",
+							"name": "100% of your starting points",
+							"reference": "B37",
+							"cost_adj": "5",
+							"disabled": true
+						},
+						{
+							"id": "mu9jRcz_VEOfjD_XV",
+							"name": "150% of your starting points",
+							"reference": "B37",
+							"cost_adj": "10",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "mmXeTtdIoBupzv1md",
+					"name": "Special Abilities",
+					"reference": "B38",
+					"local_notes": "@Abilities@",
+					"cost_adj": "50%",
+					"disabled": true
+				},
+				{
+					"id": "MN_Abj4UApSVqYJmo",
+					"name": "Summonable",
+					"children": [
+						{
+							"id": "m5ZnWG6DSI7K5BYII",
+							"name": "Summonable",
+							"reference": "B38,P41",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "m6QStmmW56Sr6Ek4t",
+							"name": "Conjured",
+							"reference": "DF9:4,P41",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mGjYoIzLxnwWFINaS",
+							"name": "Harder Summoning 1",
+							"reference": "DF9:4",
+							"cost_adj": "-5%",
+							"disabled": true
+						},
+						{
+							"id": "mbgiAGoagRRTgZC-e",
+							"name": "Harder Summoning 2",
+							"reference": "DF9:4",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "mdLgZsFRNVUY2dTqD",
+							"name": "Harder Summoning 3",
+							"reference": "DF9:4",
+							"cost_adj": "-20%",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "MFBMNqXAQadOxYVRD",
+					"name": "Sympathy",
+					"reference": "B38",
+					"children": [
+						{
+							"id": "mKep0saoaPCXjZOnt",
+							"name": "Sympathy",
+							"reference": "B38",
+							"local_notes": "Death of one party kills the other",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mIlihPWoh4pIznDsd",
+							"name": "Sympathy",
+							"reference": "B38",
+							"local_notes": "Death of one party kills the other and wounds affect ally but not you",
+							"cost_adj": "-10%",
+							"disabled": true
+						},
+						{
+							"id": "mZwS2whnqg_DpJoNm",
+							"name": "Sympathy",
+							"reference": "B38",
+							"local_notes": "Death of one party reduces the other to 0 HP",
+							"cost_adj": "-25%",
+							"disabled": true
+						},
+						{
+							"id": "mnxGrbYNBiF7hZ-ks",
+							"name": "Sympathy",
+							"reference": "B38",
+							"local_notes": "Death of one party reduces the other to 0 HP and wounds affect ally but not you",
+							"cost_adj": "-5%",
+							"disabled": true
+						}
+					]
+				},
+				{
+					"id": "mdFbBf0odxI7eSmYO",
+					"name": "Unwilling",
+					"reference": "B38",
+					"cost_adj": "-50%",
+					"disabled": true
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		},
+		{
 			"id": "t9ojh4sO9YVJvnC2L",
 			"source": {
 				"library": "/gcs-cdp",
@@ -590,27 +873,19 @@
 			}
 		},
 		{
-			"id": "tGDr-VtotkONfzLxY",
+			"id": "te4o4y5KApjzwljd0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (O'koptera)",
+			"name": "Cultural Familiarity (O'koptera, Native)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "muw1MYlp1AVbpJFwL",
-					"name": "Native",
-					"cost_adj": "-1"
-				}
-			],
-			"base_points": 1,
 			"calc": {
 				"points": 0
 			}
@@ -1502,6 +1777,39 @@
 	],
 	"skills": [
 		{
+			"id": "sHAJI4ez0j2BNTd6p",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s1_nSFTuBswujqGAo"
+			},
+			"name": "Animal Handling",
+			"reference": "B175",
+			"tags": [
+				"Animal"
+			],
+			"specialization": "Raptors",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -5,
+				"level": 6,
+				"adjusted_level": 6,
+				"points": -6
+			},
+			"calc": {
+				"level": 10,
+				"rsl": "IQ-1"
+			}
+		},
+		{
 			"id": "s4IGKjiXBQRlbQNry",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1573,20 +1881,20 @@
 			}
 		},
 		{
-			"id": "s1W_lnhDh-4HJ9b35",
+			"id": "sRtGA1pwlSnAOSTKc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s4WxUyOWPwvLxBypO"
+				"id": "s8sGblB3JWt6f_2hf"
 			},
 			"name": "Etiquette",
 			"reference": "B218,MA59",
 			"tags": [
-				"Business",
+				"Everyman",
 				"Knowledge",
 				"Social"
 			],
-			"specialization": "High Society",
+			"specialization": "Servant",
 			"difficulty": "iq/e",
 			"defaults": [
 				{
@@ -1596,11 +1904,11 @@
 				{
 					"type": "skill",
 					"name": "Savoir-Faire",
-					"specialization": "Servant",
+					"specialization": "High Society",
 					"modifier": -2
 				}
 			],
-			"points": 2,
+			"points": 1,
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -4,
@@ -1609,8 +1917,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "IQ+1"
+				"level": 11,
+				"rsl": "IQ+0"
 			}
 		},
 		{
@@ -1860,7 +2168,7 @@
 		}
 	],
 	"created_date": "2025-12-27T06:01:12+01:00",
-	"modified_date": "2026-01-05T00:26:06+01:00",
+	"modified_date": "2026-01-05T07:49:17+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

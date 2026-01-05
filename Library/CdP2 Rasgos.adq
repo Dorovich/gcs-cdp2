@@ -5740,86 +5740,6 @@
 			}
 		},
 		{
-			"id": "t0lPrLhlEhRkAK-e_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "toXBQ8q4Nek5lsLPF"
-			},
-			"name": "Cultural Familiarity",
-			"reference": "B23",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mRb4ssr3VqteKeWdT",
-					"name": "Koppemak",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mc9eSP1lKMWhWpj_q",
-					"name": "Koppemak",
-					"local_notes": "Native",
-					"disabled": true
-				},
-				{
-					"id": "mdgyIWx6Mxis4teVm",
-					"name": "Korkon",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mSGdCrK5ZUQGNcfkN",
-					"name": "Korkon",
-					"local_notes": "Native",
-					"disabled": true
-				},
-				{
-					"id": "mPk0noUcGEksC4G1y",
-					"name": "Kwazaar",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mMCTOjSAk_mSp0-wJ",
-					"name": "Kwazaar",
-					"local_notes": "Native",
-					"disabled": true
-				},
-				{
-					"id": "mxvNkmJ_JhJx4DHUg",
-					"name": "O'koptera",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mm7IdqH_Wb4fqMBWT",
-					"name": "O'koptera",
-					"local_notes": "Native",
-					"disabled": true
-				},
-				{
-					"id": "m6mjZCR2t6g4icf81",
-					"name": "Te'karn",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "md16yGskyDhkdDfiC",
-					"name": "Te'karn",
-					"local_notes": "Native",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
 			"id": "t72stmKIrtgyCWxLG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -5866,17 +5786,27 @@
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mbNIa2EQEe4PCzCZS",
-					"name": "Native",
-					"cost_adj": "-1",
-					"disabled": true
-				}
-			],
 			"base_points": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tDPlqQPb7-e6F84U0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Koppemak, Native)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -5893,17 +5823,27 @@
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mikxd7IKCF1dVwQ5Y",
-					"name": "Native",
-					"cost_adj": "-1",
-					"disabled": true
-				}
-			],
 			"base_points": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tCa5dy85NqE3PmTwZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Korkon, Native)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -5920,17 +5860,27 @@
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "m-qNNMMg1o0dbP3um",
-					"name": "Native",
-					"cost_adj": "-1",
-					"disabled": true
-				}
-			],
 			"base_points": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tjCkR8y4OKWXYuPjq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Kwazaar, Native)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -5947,17 +5897,27 @@
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "mU1XsVYxT--fqVngn",
-					"name": "Native",
-					"cost_adj": "-1",
-					"disabled": true
-				}
-			],
 			"base_points": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tPQYdk5ILATEub-Ax",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (O'koptera, Native)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"calc": {
+				"points": 0
 			}
 		},
 		{
@@ -5974,17 +5934,27 @@
 				"Mental"
 			],
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"modifiers": [
-				{
-					"id": "m0YRIBcf1rTJ7t0UP",
-					"name": "Native",
-					"cost_adj": "-1",
-					"disabled": true
-				}
-			],
 			"base_points": 1,
 			"calc": {
 				"points": 1
+			}
+		},
+		{
+			"id": "tMcLMqJ0OBOiA9yAH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Te'karn, Native)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"calc": {
+				"points": 0
 			}
 		},
 		{
