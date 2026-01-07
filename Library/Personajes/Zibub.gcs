@@ -1845,21 +1845,117 @@
 	],
 	"equipment": [
 		{
-			"id": "eATfG0FbE2ui7bVkI",
-			"description": "Book (Charlatán y el Leviatán)",
-			"local_notes": "Holdout -1. Una historia de aventura y romance que trata sobre Charlatán, un te'karn bueno para nada que por casualidad acaba resolviendo el secuestro de Alimory, una cortesana te'karn, y la salva de las garras del Leviatán de las dunas, entre otras desventuras.",
-			"legality_class": "4",
-			"base_value": "2",
-			"base_weight": "0.05",
-			"ignore_weight_for_skills": true,
+			"id": "ELXw7kWDAsbm2wgIC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "EkyWZZH9aiHuk6g_k"
+			},
+			"description": "Cloth Bag, 1 quart",
+			"reference": "LT34",
+			"local_notes": "DR 0; HP 2; Fragile (Combustible) see B136",
+			"tech_level": "0",
+			"tags": [
+				"Container"
+			],
+			"base_value": "0.75",
+			"base_weight": "0.1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1.8125 lb"
+						}
+					}
+				]
+			},
 			"quantity": 1,
 			"equipped": true,
+			"children": [
+				{
+					"id": "eATfG0FbE2ui7bVkI",
+					"description": "Book (Charlatán y el Leviatán)",
+					"local_notes": "Holdout -1. Una historia de aventura y romance que trata sobre Charlatán, un te'karn bueno para nada que por casualidad acaba resolviendo el secuestro de Alimory, una cortesana te'karn, y la salva de las garras del Leviatán de las dunas, entre otras desventuras.",
+					"legality_class": "4",
+					"base_value": "2",
+					"base_weight": "0.05",
+					"ignore_weight_for_skills": true,
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 2,
+						"extended_value": 2,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb",
+						"extended_weight_for_skills": "0 lb"
+					}
+				},
+				{
+					"id": "eqkdBjr592U72gx60",
+					"description": "Karat Coin",
+					"legality_class": "4",
+					"base_value": "10",
+					"base_weight": "0.002",
+					"quantity": 50,
+					"equipped": true,
+					"calc": {
+						"value": 10,
+						"extended_value": 500,
+						"weight": "0.004 lb",
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "euEYO-2tGa-ZCo2AW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eXzPYrD6D5inoSBlY"
+					},
+					"description": "Notebook",
+					"reference": "HT17",
+					"local_notes": "Holdout -1",
+					"tech_level": "6",
+					"tags": [
+						"Information Technology"
+					],
+					"base_value": "1",
+					"base_weight": "0.1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 1,
+						"extended_value": 1,
+						"weight": "0.1 lb",
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "ejnV3CO70qr5Hhfvs",
+					"description": "Pencil",
+					"legality_class": "4",
+					"base_value": "1",
+					"base_weight": "0.01",
+					"quantity": 2,
+					"equipped": true,
+					"calc": {
+						"value": 1,
+						"extended_value": 2,
+						"weight": "0.02 lb",
+						"extended_weight": "0.04 lb"
+					}
+				}
+			],
 			"calc": {
-				"value": 2,
-				"extended_value": 2,
+				"value": 0.75,
+				"extended_value": 505.75,
 				"weight": "0.1 lb",
-				"extended_weight": "0.1 lb",
-				"extended_weight_for_skills": "0 lb"
+				"extended_weight": "0.54 lb"
 			}
 		},
 		{
@@ -1975,21 +2071,6 @@
 			}
 		},
 		{
-			"id": "eqkdBjr592U72gx60",
-			"description": "Karat Coin",
-			"legality_class": "4",
-			"base_value": "10",
-			"base_weight": "0.002",
-			"quantity": 50,
-			"equipped": true,
-			"calc": {
-				"value": 10,
-				"extended_value": 500,
-				"weight": "0.004 lb",
-				"extended_weight": "0.2 lb"
-			}
-		},
-		{
 			"id": "ezvkdDSQzcJMgIddK",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2095,46 +2176,6 @@
 				"extended_value": 20,
 				"weight": "2 lb",
 				"extended_weight": "2 lb"
-			}
-		},
-		{
-			"id": "euEYO-2tGa-ZCo2AW",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "High Tech/High Tech Equipment.eqp",
-				"id": "eXzPYrD6D5inoSBlY"
-			},
-			"description": "Notebook",
-			"reference": "HT17",
-			"local_notes": "Holdout -1",
-			"tech_level": "6",
-			"tags": [
-				"Information Technology"
-			],
-			"base_value": "1",
-			"base_weight": "0.1 lb",
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"value": 1,
-				"extended_value": 1,
-				"weight": "0.1 lb",
-				"extended_weight": "0.1 lb"
-			}
-		},
-		{
-			"id": "ejnV3CO70qr5Hhfvs",
-			"description": "Pencil",
-			"legality_class": "4",
-			"base_value": "1",
-			"base_weight": "0.01",
-			"quantity": 2,
-			"equipped": true,
-			"calc": {
-				"value": 1,
-				"extended_value": 2,
-				"weight": "0.02 lb",
-				"extended_weight": "0.04 lb"
 			}
 		},
 		{
@@ -2298,7 +2339,7 @@
 		}
 	],
 	"created_date": "2026-01-05T00:48:03+01:00",
-	"modified_date": "2026-01-05T07:43:35+01:00",
+	"modified_date": "2026-01-05T22:08:17+01:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",

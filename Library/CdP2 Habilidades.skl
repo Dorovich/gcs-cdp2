@@ -3648,55 +3648,6 @@
 			"points": 1
 		},
 		{
-			"id": "s-ikZYegUXz5JFm8l",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sUMX5WJHqMbYwXdJG"
-			},
-			"name": "Engineer",
-			"reference": "B190",
-			"tags": [
-				"Design",
-				"Engineer",
-				"Invention"
-			],
-			"specialization": "Clockwork",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"specialization": "Clockwork",
-					"modifier": -6
-				}
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"when_tl": {
-					"compare": "at_least",
-					"qualifier": 5
-				},
-				"prereqs": [
-					{
-						"type": "skill_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "mathematics"
-						},
-						"specialization": {
-							"compare": "is",
-							"qualifier": "applied"
-						}
-					}
-				]
-			},
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sX1LTubNQp0DgcBaV",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6496,46 +6447,6 @@
 					"type": "skill",
 					"name": "Engineer",
 					"specialization": "Automobile",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Machinist",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Mechanic",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
-			"id": "sHOFVsjSjuAwn7bF5",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "stJGGgA2iI_-Sk0YN"
-			},
-			"name": "Mechanic",
-			"reference": "B207",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "Clockwork",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Clockwork",
 					"modifier": -4
 				},
 				{

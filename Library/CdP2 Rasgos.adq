@@ -330,6 +330,15 @@
 			}
 		},
 		{
+			"id": "tIqJbYztqMK5YN9mC",
+			"name": "Ship Owner",
+			"vtt_notes": "Use a fitting Wealth level with limitations \"Only to buy a ship (-50%)\" and \"Duty (to ship, -5 pts)\".",
+			"base_points": 13,
+			"calc": {
+				"points": 13
+			}
+		},
+		{
 			"id": "tQVwDZ4-CF7q5HKsU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",

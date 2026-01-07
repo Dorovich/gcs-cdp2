@@ -9,7 +9,7 @@ Cada personaje debe escoger el rasgo de una de las especies de la campaña (cost
 En cuanto a las habilidades, debe escoger únicamente las que concuerden con su concepto de personaje. Una estructura posible es la siguiente:
 
 - Entre 1 y 3 habilidades "núcleo", características del personaje, que representan en lo que sobresale. Lo normal es que sean las de nivel más alto entre las que tiene. Nivel final esperado: entre 11 y 13.
-- Entre 1 y 9 habilidades "complementarias", que representan otras actividades donde es capaz, pero no tan (o menos) competente. Nivel final esperado: entre 7 y 11.
+- Entre 1 y 9 habilidades "complementarias", que representan otras actividades donde es capaz, pero no tan (o menos) competente. Nivel final esperado: entre 7 y 10.
 
 > [!TIP]
 > Creación rápida (elección de habilidades): 2 núcleo, 5 complementarias.
