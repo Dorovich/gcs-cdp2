@@ -20,7 +20,7 @@
 		"gender": "Male",
 		"height": "4'9.6\"",
 		"weight": "96 lb",
-		"player_name": "Vido",
+		"player_name": "NPC",
 		"title": "Dron, Primogénito",
 		"organization": "Casa Shes-Lan",
 		"religion": "Fe de Sh-gá-rra",
@@ -95,6 +95,14 @@
 				"cost_per_point": 2
 			},
 			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"base": "$iq",
+				"cost_per_point": 5
+			},
+			{
 				"id": "basic_speed",
 				"type": "decimal",
 				"name": "Basic Speed",
@@ -106,14 +114,6 @@
 				"type": "integer",
 				"name": "Basic Move",
 				"base": "Math.floor($basic_speed)",
-				"cost_per_point": 5
-			},
-			{
-				"id": "per",
-				"type": "integer",
-				"name": "Per",
-				"full_name": "Perception",
-				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -494,6 +494,14 @@
 			}
 		},
 		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
@@ -506,14 +514,6 @@
 			"adj": 0,
 			"calc": {
 				"value": 5,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "per",
-			"adj": 0,
-			"calc": {
-				"value": 10,
 				"points": 0
 			}
 		},
@@ -2339,7 +2339,7 @@
 		}
 	],
 	"created_date": "2026-01-05T00:48:03+01:00",
-	"modified_date": "2026-01-05T22:08:17+01:00",
+	"modified_date": "2026-01-07T19:03:41+01:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",

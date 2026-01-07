@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "Adj5ap-qffQGsfx_r",
-	"total_points": 65,
+	"total_points": 70,
 	"points_record": [
 		{
 			"when": "2025-12-29T03:00:37+01:00",
-			"points": 65,
+			"points": 70,
 			"reason": "Initial points"
 		}
 	],
@@ -94,6 +94,14 @@
 				"cost_per_point": 2
 			},
 			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"base": "$iq",
+				"cost_per_point": 5
+			},
+			{
 				"id": "basic_speed",
 				"type": "decimal",
 				"name": "Basic Speed",
@@ -105,14 +113,6 @@
 				"type": "integer",
 				"name": "Basic Move",
 				"base": "Math.floor($basic_speed)",
-				"cost_per_point": 5
-			},
-			{
-				"id": "per",
-				"type": "integer",
-				"name": "Per",
-				"full_name": "Perception",
-				"base": "$iq",
 				"cost_per_point": 5
 			},
 			{
@@ -493,6 +493,14 @@
 			}
 		},
 		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
 			"attr_id": "basic_speed",
 			"adj": 0,
 			"calc": {
@@ -505,14 +513,6 @@
 			"adj": 0,
 			"calc": {
 				"value": 5,
-				"points": 0
-			}
-		},
-		{
-			"attr_id": "per",
-			"adj": 0,
-			"calc": {
-				"value": 10,
 				"points": 0
 			}
 		},
@@ -1049,41 +1049,11 @@
 			}
 		},
 		{
-			"id": "tUslmiy8CQ0HXOAW7",
-			"source": {
-				"library": "/gcs_user_library",
-				"path": "Crónicas del Pentácoro/Rasgos Especies.adq",
-				"id": "tIGtrq_bbIz4rcgOg"
-			},
-			"name": "Easy to Read",
-			"reference": "B134",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"base_points": -10,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to others on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words",
-					"amount": 4
-				},
-				{
-					"type": "conditional_modifier",
-					"situation": "to others on IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff",
-					"amount": 4
-				}
-			],
-			"calc": {
-				"points": -10
-			}
-		},
-		{
 			"id": "TfnezhIuwe_593pfV",
-			"name": "GM's Awards",
+			"name": "Earned Traits",
 			"modifiers": [
 				{
-					"id": "mDx8Al_QEbTaNg8yJ",
+					"id": "m35FIBnHJpe6sAtIr",
 					"cost_adj": "x0"
 				}
 			],
@@ -1207,61 +1177,33 @@
 			}
 		},
 		{
-			"id": "tgRIaxp_6pPtidIuv",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "txSLRSX9nxLwQkE2n"
-			},
-			"name": "Hard to Kill",
-			"reference": "B58",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"points_per_level": 2,
-			"features": [
-				{
-					"type": "conditional_modifier",
-					"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
-					"amount": 1,
-					"per_level": true
-				}
-			],
-			"can_level": true,
-			"levels": 1,
-			"calc": {
-				"points": 2,
-				"current_level": 1
-			}
-		},
-		{
-			"id": "ta9_qa-4yonf_0dkU",
+			"id": "tUslmiy8CQ0HXOAW7",
 			"source": {
 				"library": "/gcs_user_library",
 				"path": "Crónicas del Pentácoro/Rasgos Especies.adq",
-				"id": "taRgqzkoQOZsrVoR_"
+				"id": "tIGtrq_bbIz4rcgOg"
 			},
-			"name": "Hard to Subdue",
-			"reference": "B59",
+			"name": "Easy to Read",
+			"reference": "B134",
 			"tags": [
-				"Advantage",
-				"Physical"
+				"Disadvantage",
+				"Mental"
 			],
-			"points_per_level": 2,
+			"base_points": -10,
 			"features": [
 				{
 					"type": "conditional_modifier",
-					"situation": "to any HT roll to avoid unconsciousness",
-					"amount": 1,
-					"per_level": true
+					"situation": "to others on all Empathy, Body Language, and Psychology rolls to discern your intentions or the truth of your words",
+					"amount": 4
+				},
+				{
+					"type": "conditional_modifier",
+					"situation": "to others on IQ, Detect Lies, and Gambling rolls in any Quick Contest with your Acting, Fast-Talk, or Gambling skill when you try to lie or bluff",
+					"amount": 4
 				}
 			],
-			"can_level": true,
-			"levels": 2,
 			"calc": {
-				"points": 4,
-				"current_level": 2
+				"points": -10
 			}
 		},
 		{
@@ -1936,39 +1878,6 @@
 	],
 	"skills": [
 		{
-			"id": "s0sW-BauN8NFlhGXK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shCDVQzZKFQTj_qbS"
-			},
-			"name": "Airman",
-			"reference": "B185",
-			"tags": [
-				"Vehicle"
-			],
-			"difficulty": "iq/e",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				}
-			],
-			"tech_level": "6",
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -4,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
-			},
-			"calc": {
-				"level": 10,
-				"rsl": "IQ+0"
-			}
-		},
-		{
 			"id": "sRsKn9ts4bA_CyggE",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2109,6 +2018,46 @@
 			}
 		},
 		{
+			"id": "soZQ9ZOFNvn5QGeEU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shun-iitiwyWbrGcF"
+			},
+			"name": "Intimidation",
+			"reference": "B202",
+			"tags": [
+				"Criminal",
+				"Police",
+				"Social",
+				"Street"
+			],
+			"difficulty": "will/a",
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -3
+				}
+			],
+			"points": 1,
+			"defaulted_from": {
+				"type": "will",
+				"modifier": -5,
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
+			},
+			"calc": {
+				"level": 11,
+				"rsl": "Will-1"
+			}
+		},
+		{
 			"id": "sipSDB3pM6HY4kG_o",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -2208,6 +2157,60 @@
 			"calc": {
 				"level": 9,
 				"rsl": "IQ-1"
+			}
+		},
+		{
+			"id": "snEvKTV99ZXq0HJY3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sVa9gXF-NnYK9vQkh"
+			},
+			"name": "Pharmacy",
+			"reference": "B214",
+			"tags": [
+				"Criminal",
+				"Design",
+				"Invention",
+				"Medical",
+				"Spy",
+				"Street"
+			],
+			"specialization": "Poisons",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Chemistry",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Pharmacy",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -3
+				}
+			],
+			"tech_level": "4",
+			"points": 12,
+			"defaulted_from": {
+				"type": "iq",
+				"modifier": -6,
+				"level": 4,
+				"adjusted_level": 4,
+				"points": -4
+			},
+			"calc": {
+				"level": 12,
+				"rsl": "IQ+2"
 			}
 		},
 		{
@@ -2845,7 +2848,7 @@
 		}
 	],
 	"created_date": "2025-12-29T03:00:37+01:00",
-	"modified_date": "2026-01-05T07:44:03+01:00",
+	"modified_date": "2026-01-07T19:12:06+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

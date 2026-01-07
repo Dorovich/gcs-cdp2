@@ -49,6 +49,14 @@
 			"cost_per_point": 2
 		},
 		{
+			"id": "per",
+			"type": "integer",
+			"name": "Per",
+			"full_name": "Perception",
+			"base": "$iq",
+			"cost_per_point": 5
+		},
+		{
 			"id": "basic_speed",
 			"type": "decimal",
 			"name": "Basic Speed",
@@ -60,14 +68,6 @@
 			"type": "integer",
 			"name": "Basic Move",
 			"base": "Math.floor($basic_speed)",
-			"cost_per_point": 5
-		},
-		{
-			"id": "per",
-			"type": "integer",
-			"name": "Per",
-			"full_name": "Perception",
-			"base": "$iq",
 			"cost_per_point": 5
 		},
 		{
