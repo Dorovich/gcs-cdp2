@@ -330,15 +330,6 @@
 			}
 		},
 		{
-			"id": "tIqJbYztqMK5YN9mC",
-			"name": "Ship Owner",
-			"vtt_notes": "Use a fitting Wealth level with limitations \"Only to buy a ship (-50%)\" and \"Duty (to ship, -5 pts)\".",
-			"base_points": 13,
-			"calc": {
-				"points": 13
-			}
-		},
-		{
 			"id": "tQVwDZ4-CF7q5HKsU",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -5782,25 +5773,6 @@
 			}
 		},
 		{
-			"id": "tCInVqWwmBDNVxNP3",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "toXBQ8q4Nek5lsLPF"
-			},
-			"name": "Cultural Familiarity (Koppemak)",
-			"reference": "B23",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
-			"base_points": 1,
-			"calc": {
-				"points": 1
-			}
-		},
-		{
 			"id": "tDPlqQPb7-e6F84U0",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -5819,13 +5791,13 @@
 			}
 		},
 		{
-			"id": "tE0Pj0cIhoHLuDggx",
+			"id": "tCInVqWwmBDNVxNP3",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (Korkon)",
+			"name": "Cultural Familiarity (Koppemak)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
@@ -5856,13 +5828,13 @@
 			}
 		},
 		{
-			"id": "tFCjw7Ull8lGRYqRL",
+			"id": "tE0Pj0cIhoHLuDggx",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (Kwazaar)",
+			"name": "Cultural Familiarity (Korkon)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
@@ -5893,13 +5865,13 @@
 			}
 		},
 		{
-			"id": "toDIQ38Sd8l8vTIHC",
+			"id": "tFCjw7Ull8lGRYqRL",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (O'koptera)",
+			"name": "Cultural Familiarity (Kwazaar)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
@@ -5930,13 +5902,13 @@
 			}
 		},
 		{
-			"id": "tp32QRxM8sVZwEbXi",
+			"id": "toDIQ38Sd8l8vTIHC",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
 				"id": "toXBQ8q4Nek5lsLPF"
 			},
-			"name": "Cultural Familiarity (Te'karn)",
+			"name": "Cultural Familiarity (O'koptera)",
 			"reference": "B23",
 			"tags": [
 				"Advantage",
@@ -5964,6 +5936,25 @@
 			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
 			"calc": {
 				"points": 0
+			}
+		},
+		{
+			"id": "tp32QRxM8sVZwEbXi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "toXBQ8q4Nek5lsLPF"
+			},
+			"name": "Cultural Familiarity (Te'karn)",
+			"reference": "B23",
+			"tags": [
+				"Advantage",
+				"Mental"
+			],
+			"vtt_notes": "Do not suffer the normal -3 penalty for unfamiliarity",
+			"base_points": 1,
+			"calc": {
+				"points": 1
 			}
 		},
 		{
@@ -16415,6 +16406,18 @@
 			"id": "tToTfPINFyLrfLrrL",
 			"name": "Jaw ST",
 			"points_per_level": 1,
+			"features": [
+				{
+					"type": "weapon_effective_st_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"usage": {
+						"compare": "is",
+						"qualifier": "Bite"
+					},
+					"amount": 1,
+					"leveled": true
+				}
+			],
 			"can_level": true,
 			"levels": 1,
 			"calc": {
@@ -28105,6 +28108,15 @@
 			}
 		},
 		{
+			"id": "tIqJbYztqMK5YN9mC",
+			"name": "Ship Owner",
+			"vtt_notes": "Use a fitting Wealth level with limitations \"Only to buy a ship (-50%)\" and \"Duty (to ship, -5 pts)\".",
+			"base_points": 13,
+			"calc": {
+				"points": 13
+			}
+		},
+		{
 			"id": "teW-c8fID65NZ2rri",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -29811,10 +29823,10 @@
 			"tags": [
 				"Species"
 			],
-			"base_points": 10,
+			"base_points": 20,
 			"weapons": [
 				{
-					"id": "wZBVSSDzKYNkruwGL",
+					"id": "whJG9-Mbf9k6nj3oR",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29847,7 +29859,7 @@
 					}
 				},
 				{
-					"id": "w6SxUfAHH2e5MFJF5",
+					"id": "wrdRsLZESum1ZCqEd",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29882,8 +29894,8 @@
 			"features": [
 				{
 					"type": "attribute_bonus",
-					"attribute": "em",
-					"amount": -2
+					"attribute": "basic_speed",
+					"amount": 0.5
 				},
 				{
 					"type": "attribute_bonus",
@@ -29929,7 +29941,7 @@
 				}
 			],
 			"calc": {
-				"points": 10
+				"points": 20
 			}
 		},
 		{
@@ -29943,10 +29955,10 @@
 			"tags": [
 				"Species"
 			],
-			"base_points": 10,
+			"base_points": 15,
 			"weapons": [
 				{
-					"id": "w5a5JSOfvFEwqmHSV",
+					"id": "wCKdciSaVjDvPmIgl",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -29970,7 +29982,7 @@
 					}
 				},
 				{
-					"id": "wbLmPvKjSipGl25JF",
+					"id": "wd3aJ2aG3swJF2EF2",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30001,7 +30013,7 @@
 					}
 				},
 				{
-					"id": "wQA0d9AcxSyMk0uC5",
+					"id": "wVSwKWwbox-imEHIz",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30024,7 +30036,7 @@
 					}
 				},
 				{
-					"id": "wgSrj3qB2bIhARwaY",
+					"id": "wxHevkj3STKDK4Q3g",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30057,7 +30069,7 @@
 					}
 				},
 				{
-					"id": "wfbukazoTo2ooLySh",
+					"id": "wuVUowIo9zpPypVza",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30090,6 +30102,11 @@
 				}
 			],
 			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "touch",
+					"amount": 1
+				},
 				{
 					"type": "dr_bonus",
 					"locations": [
@@ -30120,7 +30137,7 @@
 				}
 			],
 			"calc": {
-				"points": 10
+				"points": 15
 			}
 		},
 		{
@@ -30134,10 +30151,10 @@
 			"tags": [
 				"Species"
 			],
-			"base_points": 10,
+			"base_points": 5,
 			"weapons": [
 				{
-					"id": "w4ylTfB1KclTKjOS2",
+					"id": "wfUvf22u_TtGn4xJg",
 					"sv": 1,
 					"damage": {
 						"type": "cut",
@@ -30160,7 +30177,7 @@
 					}
 				},
 				{
-					"id": "w5uGcJ7NVffFYzQQZ",
+					"id": "wcfgD8q5jxbpL6OIf",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30185,7 +30202,7 @@
 					}
 				},
 				{
-					"id": "wroK4pCTYpXbGWFpK",
+					"id": "wM8Krl7U1v4qOr7uZ",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30218,7 +30235,7 @@
 					}
 				},
 				{
-					"id": "w2E68ejza4q9I07e5",
+					"id": "wq1rmfGuBKvBWa8Cs",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30252,6 +30269,20 @@
 			],
 			"features": [
 				{
+					"type": "weapon_effective_st_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"usage": {
+						"compare": "is",
+						"qualifier": "Bite"
+					},
+					"amount": 3
+				},
+				{
+					"type": "attribute_bonus",
+					"attribute": "will",
+					"amount": -1
+				},
+				{
 					"type": "attribute_bonus",
 					"attribute": "em",
 					"amount": -1
@@ -30273,7 +30304,7 @@
 				}
 			],
 			"calc": {
-				"points": 10
+				"points": 5
 			}
 		},
 		{

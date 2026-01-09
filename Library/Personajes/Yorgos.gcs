@@ -1161,6 +1161,44 @@
 			}
 		},
 		{
+			"id": "tVz13JtuE0I6bvFE0",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "PHX Framework/PHX Traits.adq",
+				"id": "tscmSYJJXncLjOvVM"
+			},
+			"name": "Masterful Strikes (@Strike@)",
+			"local_notes": "+1 thr damage per die for Unarmed Strikes",
+			"tags": [
+				"Perk",
+				"Physical",
+				"Unarmed"
+			],
+			"replacements": {
+				"Strike": "Headbutt"
+			},
+			"points_per_level": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "@Strike@"
+					},
+					"amount": 1,
+					"leveled": true,
+					"per_die": true
+				}
+			],
+			"can_level": true,
+			"levels": 1,
+			"calc": {
+				"points": 1,
+				"current_level": 1
+			}
+		},
+		{
 			"id": "tg8C5kBrlF9FpyYMy",
 			"source": {
 				"library": "/gcs_user_library",
@@ -1265,7 +1303,7 @@
 					],
 					"calc": {
 						"level": 11,
-						"damage": "1d+1 cr",
+						"damage": "1d+2 cr",
 						"parry": "7"
 					}
 				},
@@ -1580,10 +1618,10 @@
 				"Melee Combat"
 			],
 			"difficulty": "dx/e",
-			"points": 2,
+			"points": 4,
 			"calc": {
-				"level": 12,
-				"rsl": "DX+1"
+				"level": 13,
+				"rsl": "DX+2"
 			}
 		},
 		{
@@ -1683,7 +1721,7 @@
 					"modifier": -4
 				}
 			],
-			"points": 2,
+			"points": 4,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -4,
@@ -1692,8 +1730,8 @@
 				"points": -7
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "DX+1"
+				"level": 13,
+				"rsl": "DX+2"
 			}
 		},
 		{
@@ -2202,7 +2240,7 @@
 		}
 	],
 	"created_date": "2025-12-27T04:24:10+01:00",
-	"modified_date": "2026-01-07T18:39:15+01:00",
+	"modified_date": "2026-01-08T20:16:39+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",
