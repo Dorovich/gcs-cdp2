@@ -1,11 +1,11 @@
 {
 	"version": 5,
 	"id": "Af2qLkpEaoLNuQHsm",
-	"total_points": 70,
+	"total_points": 75,
 	"points_record": [
 		{
 			"when": "2025-12-27T04:24:10+01:00",
-			"points": 70,
+			"points": 75,
 			"reason": "Initial points"
 		}
 	],
@@ -547,7 +547,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 9,
+				"value": 10,
 				"points": 0
 			}
 		},
@@ -1269,7 +1269,7 @@
 			}
 		},
 		{
-			"id": "t8i8RXy8DyGio1-PI",
+			"id": "tI-FXrt2L8xz5Htrd",
 			"source": {
 				"library": "/gcs-cdp2",
 				"path": "CdP2 Rasgos Nuevos.adq",
@@ -1279,10 +1279,10 @@
 			"tags": [
 				"Species"
 			],
-			"base_points": 10,
+			"base_points": 15,
 			"weapons": [
 				{
-					"id": "wBzf5KTQEDH8Jb8Sx",
+					"id": "wh3bNxQ1iuNTYbhvZ",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1308,7 +1308,7 @@
 					}
 				},
 				{
-					"id": "wh3lZD1iL__JBbkjb",
+					"id": "wBqIq_qUHe3otECC7",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1340,7 +1340,7 @@
 					}
 				},
 				{
-					"id": "wwPL2wkqejaoOqriA",
+					"id": "wHas8s4uZ49x1aWQY",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1364,7 +1364,7 @@
 					}
 				},
 				{
-					"id": "w0x-RvNSqMHMwPCdv",
+					"id": "wxnaFUriMGAX4xRpl",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1398,7 +1398,7 @@
 					}
 				},
 				{
-					"id": "wVP5Qwj2HsGQGzJrz",
+					"id": "w9hiUpniNFVBTlqr-",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -1434,6 +1434,11 @@
 			],
 			"features": [
 				{
+					"type": "attribute_bonus",
+					"attribute": "touch",
+					"amount": 1
+				},
+				{
 					"type": "dr_bonus",
 					"locations": [
 						"feet",
@@ -1463,7 +1468,7 @@
 				}
 			],
 			"calc": {
-				"points": 10
+				"points": 15
 			}
 		}
 	],
@@ -2240,7 +2245,7 @@
 		}
 	],
 	"created_date": "2025-12-27T04:24:10+01:00",
-	"modified_date": "2026-01-08T20:16:39+01:00",
+	"modified_date": "2026-01-09T17:34:40+01:00",
 	"calc": {
 		"swing": "2d-1",
 		"thrust": "1d",

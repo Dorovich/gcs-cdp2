@@ -30318,10 +30318,10 @@
 			"tags": [
 				"Species"
 			],
-			"base_points": 5,
+			"base_points": 10,
 			"weapons": [
 				{
-					"id": "wrWMWoUFuUUBCpsQc",
+					"id": "wYCrTrKNtTJYOg5Li",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30344,7 +30344,7 @@
 					}
 				},
 				{
-					"id": "wkSQ09kIKplncALIT",
+					"id": "w863lPIeYTyaf4R1g",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30377,7 +30377,7 @@
 					}
 				},
 				{
-					"id": "wcT_g9ACrEQEOvJoE",
+					"id": "w3yBd2-wveIgCf2YN",
 					"sv": 1,
 					"damage": {
 						"type": "cr",
@@ -30410,7 +30410,7 @@
 				}
 			],
 			"calc": {
-				"points": 5
+				"points": 10
 			}
 		},
 		{

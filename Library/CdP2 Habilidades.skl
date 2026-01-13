@@ -6080,39 +6080,6 @@
 			"points": 1
 		},
 		{
-			"id": "sT0GWRSdwhjuisWr6",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sDKy9mOhQeiZ6fjvq"
-			},
-			"name": "Mathematics",
-			"reference": "B207",
-			"tags": [
-				"Natural Science"
-			],
-			"specialization": "@Specialization@",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Physics",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"modifier": -5
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sHS-OkeI7CflNipeg",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6127,6 +6094,11 @@
 			"specialization": "Applied",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -5
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -6161,6 +6133,11 @@
 			"difficulty": "iq/h",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -5
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				},
@@ -6190,9 +6167,12 @@
 			"difficulty": "iq/h",
 			"defaults": [
 				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
 					"type": "skill",
 					"name": "Mathematics",
-					"specialization": "Cryptology",
 					"modifier": -5
 				}
 			],
@@ -6216,10 +6196,19 @@
 			"difficulty": "iq/a",
 			"defaults": [
 				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
 					"type": "skill",
 					"name": "Mathematics",
-					"specialization": "Cryptology",
-					"modifier": -5
+					"specialization": "Cryptography",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -7
 				}
 			],
 			"tech_level": "",
@@ -6242,10 +6231,19 @@
 			"difficulty": "iq/a",
 			"defaults": [
 				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
 					"type": "skill",
 					"name": "Mathematics",
-					"specialization": "Cryptology",
-					"modifier": -5
+					"modifier": -7
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Cryptography",
+					"modifier": -2
 				}
 			],
 			"tech_level": "",
@@ -6272,7 +6270,7 @@
 				},
 				{
 					"type": "skill",
-					"name": "Cryptography",
+					"name": "Mathematics",
 					"modifier": -5
 				}
 			],
@@ -6294,6 +6292,11 @@
 			"specialization": "Pure",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -5
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -6318,6 +6321,17 @@
 			"difficulty": "iq/a",
 			"defaults": [
 				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -7
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Pure",
+					"modifier": -2
+				},
+				{
 					"type": "iq",
 					"modifier": -6
 				}
@@ -6340,6 +6354,11 @@
 			"specialization": "Statistics",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -5
+				},
 				{
 					"type": "iq",
 					"modifier": -6
@@ -6364,6 +6383,11 @@
 			"specialization": "Surveying",
 			"difficulty": "iq/h",
 			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"modifier": -5
+				},
 				{
 					"type": "iq",
 					"modifier": -6
