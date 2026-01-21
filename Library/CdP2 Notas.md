@@ -2,7 +2,7 @@
 
 ## Personajes jugadores
 
-Los personajes jugadores se crean, inicialmente, con 65 puntos de personaje. Pueden obtener hasta 35 adicionales por desventajas. La merma de atributos por puntos también es una opción (que no cuenta para el total de desventajas anterior), pero no deberían reducirse a menos de 8 (ni aumentarse a más de 13) sin la aprobación del GM.
+Los personajes jugadores se crean, inicialmente, con 65 puntos de personaje. Pueden obtener hasta 35 adicionales por desventajas (-35). La merma de atributos por puntos también es una opción (que no cuenta para el total de desventajas anterior), pero no deberían reducirse a menos de 8 (ni aumentarse a más de 13) sin la aprobación del GM.
 
 Cada personaje debe escoger el rasgo de una de las especies de la campaña (coste de 10 puntos en caso de ser distinta a te'karn).
 
